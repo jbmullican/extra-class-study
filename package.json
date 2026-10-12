@@ -5,6 +5,6 @@
   "description": "Adaptive study PWA for the US Amateur Extra (Element 4) 2024-2028 question pool",
   "license": "GPL-3.0-or-later",
   "type": "module",
-  "scripts": { "test": "node --test tests/" },
+  "scripts": { "test": "node --test tests/*.test.mjs" },
   "engines": { "node": ">=20" }
 }
