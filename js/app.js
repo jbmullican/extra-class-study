@@ -28,7 +28,27 @@ function poolBar() {
 }
 
 function figures(q) {
-  return q.figures.map(f => `<figure><img src="figures/${esc(f)}.svg" alt="Figure ${esc(f)}" loading="lazy"><figcaption class="small muted">Figure ${esc(f)}</figcaption></figure>`).join('');
+  return q.figures.map(f => `<figure><button class="fig" data-fig="${esc(f)}" aria-label="Enlarge Figure ${esc(f)}"><img src="figures/${esc(f)}.svg" alt="Figure ${esc(f)}" loading="lazy"></button><figcaption class="small muted">Figure ${esc(f)} · tap to zoom</figcaption></figure>`).join('');
+}
+function explain(q) {
+  if (!q.explanation) return '';
+  const low = q.explanationConfidence === 'low'
+    ? `<p class="small warn">⚠️ Lower-confidence explanation: double-check against the rule or a reference text.</p>` : '';
+  return `<div class="explain"><p><strong>Why:</strong> ${esc(q.explanation)}</p>${low}${q.refs ? `<p class="small muted">Pool reference: 47 CFR §${esc(q.refs)}</p>` : ''}</div>`;
+}
+function openFigure(f) {
+  const d = document.createElement('div');
+  d.className = 'zoom'; d.setAttribute('role', 'dialog'); d.setAttribute('aria-label', `Figure ${f}`);
+  d.innerHTML = `<div class="zoom-bar"><span>Figure ${esc(f)}</span><button class="btn" id="zclose">Close</button></div>
+    <div class="zoom-body"><img src="figures/${esc(f)}.svg" alt="Figure ${esc(f)}" style="width:200%"></div>
+    <div class="row zoom-ctl"><button class="btn" data-z="-1">−</button><button class="btn" data-z="1">+</button></div>`;
+  document.body.appendChild(d);
+  let w = 200; const img = d.querySelector('img');
+  d.querySelectorAll('[data-z]').forEach(b => b.onclick = () => { w = Math.min(500, Math.max(100, w + 50 * +b.dataset.z)); img.style.width = w + '%'; });
+  const close = () => d.remove();
+  d.querySelector('#zclose').onclick = close;
+  d.addEventListener('keydown', e => e.key === 'Escape' && close());
+  d.querySelector('#zclose').focus();
 }
 const groupTitle = id => pool.groups.find(g => g.id === id)?.title || '';
 
@@ -69,8 +89,8 @@ const views = {
         document.querySelectorAll('[data-a]').forEach(x => { x.disabled = true; if (+x.dataset.a === q.correct) x.classList.add('correct'); });
         if (!ok) b.classList.add('wrong');
         record(q, ok);
-        $('#after').innerHTML = `<p class="${ok ? 'pass' : 'fail'}"><strong>${ok ? 'Correct' : 'Incorrect'}</strong> — answer ${'ABCD'[q.correct]}.</p>
-          ${q.explanation ? `<p>${esc(q.explanation)}</p>` : ''}${q.refs ? `<p class="small muted">Reference: 47 CFR §${esc(q.refs)}</p>` : ''}
+        $('#after').innerHTML = `<p class="${ok ? 'pass' : 'fail'}"><strong>${ok ? 'Correct' : 'Incorrect'}</strong> — answer ${'ABCD'[order.indexOf(q.correct)]}: ${esc(q.answers[q.correct])}</p>
+          ${explain(q)}
           <p class="small muted">Next review: ${ok ? new Date(state.cards[q.id].due).toLocaleDateString() : 'in 10 minutes'}</p>
           <button class="btn primary" id="next">Next question</button>`;
         $('#next').onclick = () => render('study');
@@ -98,7 +118,7 @@ const views = {
     return `${filterSelect(filter)}<div class="card"><div class="small muted"><span class="qid">${q.id}</span> · flashcard</div>
       <p>${esc(q.question)}</p>${figures(q)}
       <button class="btn primary" id="reveal">Show answer</button>
-      <div id="back" hidden><p><strong>${'ABCD'[q.correct]}. ${esc(q.answers[q.correct])}</strong></p>
+      <div id="back" hidden><p><strong>${esc(q.answers[q.correct])}</strong></p>${explain(q)}
       <p class="small muted">How well did you know it?</p>
       <div class="row"><button class="btn" data-g="1">Again</button><button class="btn" data-g="3">Hard</button><button class="btn" data-g="4">Good</button><button class="btn" data-g="5">Easy</button></div></div></div>`;
   },
@@ -119,7 +139,7 @@ const views = {
       const missed = ex.qs.map((q, i) => [q, ex.answers[i]]).filter(([q, a]) => a !== q.correct);
       examState = null;
       return `<h1 class="${r.passed ? 'pass' : 'fail'}">${r.correct}/50 — ${r.passed ? 'PASS' : 'FAIL'}</h1>
-        <div class="card"><h2>Missed (${missed.length})</h2>${missed.map(([q, a]) => `<p class="small"><span class="qid">${q.id}</span> ${esc(q.question)}<br>✔ ${esc(q.answers[q.correct])}${a != null ? `<br><span class="fail">✘ ${esc(q.answers[a])}</span>` : ''}</p>`).join('') || '<p>None!</p>'}</div>
+        <div class="card"><h2>Missed (${missed.length})</h2>${missed.map(([q, a]) => `<p class="small"><span class="qid">${q.id}</span> ${esc(q.question)}<br>✔ ${esc(q.answers[q.correct])}${a != null ? `<br><span class="fail">✘ ${esc(q.answers[a])}</span>` : ''}</p><div class="small">${explain(q)}</div>`).join('') || '<p>None!</p>'}</div>
         <button class="btn primary" data-go="exam">Done</button>`;
     }
     const q = ex.qs[ex.i];
@@ -168,6 +188,8 @@ function render(name) {
 }
 
 document.addEventListener('click', e => {
+  const fig = e.target.closest('[data-fig]');
+  if (fig) { openFigure(fig.dataset.fig); return; }
   const t = e.target.closest('[data-view],[data-go]');
   if (!t) return;
   if (examState && examState.i < 50 && (t.dataset.view || t.dataset.go) !== 'exam' && !confirm('Leave the exam in progress?')) return;

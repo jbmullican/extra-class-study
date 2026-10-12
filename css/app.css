@@ -26,3 +26,11 @@ figure{margin:10px 0}figure img{width:100%;height:auto;background:#fff;border-ra
 select,input[type=file]{width:100%;min-height:44px;font-size:16px;border-radius:10px;padding:8px;background:var(--card);color:var(--fg);border:1px solid var(--line)}
 .pass{color:var(--ok)}.fail{color:var(--bad)}
 .dots{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}.dots span{width:14px;height:14px;border-radius:3px;background:var(--line)}.dots .a{background:var(--acc)}
+.warn{color:var(--warn)}
+.explain{border-left:3px solid var(--acc);padding:2px 0 2px 10px;margin:10px 0}
+.fig{display:block;width:100%;padding:0;border:0;background:none;cursor:zoom-in}
+.zoom{position:fixed;inset:0;z-index:20;background:var(--bg);display:flex;flex-direction:column;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+.zoom-bar{display:flex;justify-content:space-between;align-items:center;padding:6px 12px;gap:8px}.zoom-bar .btn{width:auto;margin:0;text-align:center}
+.zoom-body{flex:1;overflow:auto;-webkit-overflow-scrolling:touch;background:#fff}.zoom-body img{display:block;max-width:none;height:auto}
+.zoom-ctl{padding:0 12px 8px}
+[hidden]{display:none!important}
