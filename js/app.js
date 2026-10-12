@@ -184,7 +184,7 @@ function render(name) {
   $('#view').innerHTML = views[name]();
   poolBar();
   document.querySelectorAll('#tabs button').forEach(b => b.dataset.view === name ? b.setAttribute('aria-current', 'page') : b.removeAttribute('aria-current'));
-  window.scrollTo(0, 0);
+  $('#view').scrollTop = 0;
 }
 
 document.addEventListener('click', e => {
