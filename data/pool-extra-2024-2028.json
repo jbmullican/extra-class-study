@@ -15,15 +15,19 @@
   "license": "Question pools are public domain"
  },
  "errata": [
-  "2024-01-31: Figure E9-3 (Smith chart) rotated 90 degrees",
+  "2024-01-31: Figure E9-3 (Smith chart) rotated 90 degrees to horizontal with infinity on the right",
+  "2024-01-31: E9E10 withdrawn",
+  "2024-01-31: wording fixes to E1D07 question, E1F03 answer D, E4D12 and E4D13 questions (100 W -> 10 W), E6A06 answer B",
+  "2024-01-31: rule citations corrected for E1E10 [97.509(m)] and E1E11 [97.509(i)]",
   "2024-11-08: E2A13 withdrawn",
   "2025-09-25: E6D07 withdrawn",
   "2026-02-04: E4D05 withdrawn"
  ],
  "withdrawn": [
+  "E9E10",
   "E2A13",
-  "E4D05",
-  "E6D07"
+  "E6D07",
+  "E4D05"
  ],
  "subelements": [
   {
@@ -331,19 +335,20 @@
  ],
  "questions": [
   {
-   "id": "E1E10",
+   "id": "E1A01",
    "subelement": "E1",
-   "group": "E1E",
-   "question": "E1E11 – update the rule citation’s letter from “m” to “i” to read: E1E11 (B) [97.509(i)] 2024-2028 Extra Class FCC Element 4 Question Pool Syllabus Effective July 1, 2024 SUBELEMENT E1 - COMMISSION RULES [6 Exam Questions - 6 Groups]  68 Questions E1A Frequency privileges; signal frequency range; automatic message forwarding; stations aboard ships or aircraft; power restriction on 630- and 2200-meter bands E1B Station restrictions and special operations: restrictions on station location; general operating restrictions; spurious emissions; antenna structure restrictions; RACES operations E1C Automatic and remote control; band-specific regulations; operating in and communicating with foreign countries; spurious emission standards; HF modulation index limit; band-specific rules E1D Amateur Space and Earth stations; telemetry and telecommand rules; identification of balloon transmissions; one-way communications E1E Volunteer examiner program: definitions; qualifications; preparation and administration of exams; reimbursement; accreditation; question pools; documentation requirements E1F Miscellaneous rules: external RF power amplifiers; prohibited communications; spread spectrum; auxiliary stations; Canadian amateurs operating in the US; special temporary authority SUBELEMENT E2 - OPERATING PROCEDURES [5 Exam Questions - 5 Groups]  61 Questions E2A Amateur radio in space: amateur satellites; orbital mechanics; frequencies and modes; satellite hardware; satellite operations E2B Television practices: fast-scan television standards and techniques; slow scan television standards and techniques E2C Contest and DX operating; remote operation techniques; log data format; contact confirmation; RF network systems E2D Operating methods: digital modes and procedures for VHF and UHF; APRS; EME procedures; meteor scatter procedures E2E Operating methods: digital modes and procedures for HF SUBELEMENT E3 - RADIO WAVE PROPAGATION [3 Exam Questions - 3 Groups]  39 Questions E3A Electromagnetic Waves and Specialized Propagation: Earth-Moon-Earth (EME) communications; meteor scatter; microwave tropospheric and scatter propagation; auroral propagation; daily variation of ionospheric propagation; circular polarization E3B Transequatorial propagation; long-path propagation; ordinary and extraordinary waves; chordal hop; sporadic-E mechanisms; ground-wave propagation E3C Propagation prediction and reporting: radio horizon; effects of space-weather phenomena SUBELEMENT E4 - AMATEUR PRACTICES [5 Exam Questions - 5 Groups]  64 Questions E4A Test equipment: analog and digital instruments; spectrum analyzers; antenna analyzers; oscilloscopes; RF measurements E4B Measurement technique and limitations: instrument accuracy and performance limitations; probes; techniques to minimize errors; measurement of Q; instrument calibration; S parameters; vector network analyzers; RF signals E4C Receiver performance: phase noise, noise floor, image rejection, minimum detectable signal (MDS), increasing signal-to-noise ratio and dynamic range, noise figure, reciprocal mixing; selectivity; SDR non-linearity; use of attenuators at low frequencies E4D Receiver performance characteristics: dynamic range; intermodulation and cross-modulation interference; third-order intercept; desensitization; preselector; sensitivity; link margin E4E Noise and interference: external RF interference; electrical and computer noise; line noise; DSP filtering and noise reduction; common-mode current; surge protectors; single point ground panel SUBELEMENT E5 - ELECTRICAL PRINCIPLES [4 Exam Questions - 4 Groups]  49 Questions E5A Resonance and Q: characteristics of resonant circuits; series and parallel resonance; definitions and effects of Q; half-power bandwidth E5B Time constants and phase relationships: RL and RC time constants; phase angle in reactive circuits and components; admittance and susceptance E5C Coordinate systems and phasors in electronics: rectangular coordinates; polar coordinates; phasors; logarithmic axes E5D RF effects in components and circuits: skin effect; real and reactive power; electrical length of conductors SUBELEMENT E6 - CIRCUIT COMPONENTS [6 Exam Questions - 6 Groups]  68 Questions E6A Semiconductor materials and devices: semiconductor materials; bipolar junction transistors; operation and types of field-effect transistors E6B Diodes E6C Digital ICs: families of digital ICs; gates; programmable logic devices E6D Inductors and piezoelectricity: permeability, core material and configuration; transformers; piezoelectric devices E6E Semiconductor materials and packages for RF use E6F Electro-optical technology: photoconductivity; photovoltaic devices; optical sensors and encoders; optically isolated switching SUBELEMENT E7 - PRACTICAL CIRCUITS [8 Exam Questions - 8 Groups]  99 Questions E7A Digital circuits: digital circuit principles and logic circuits; classes of logic elements; positive and negative logic; frequency dividers; truth tables E7B Amplifiers: class of operation; vacuum tube and solid-state circuits; distortion and intermodulation; spurious and parasitic suppression; switching-type amplifiers E7C Filters and matching networks: types of networks; types of filters; filter applications; filter characteristics; impedance matching E7D Power supplies and voltage regulators; solar array charge controllers E7E Modulation and demodulation: reactance, phase, and balanced modulators; detectors; mixers E7F Software defined radio fundamentals: digital signal processing (DSP) filtering, modulation, and demodulation; analog-digital conversion; digital filters E7G Operational amplifiers: characteristics and applications E7H Oscillators and signal sources: types of oscillators; synthesizers and phase-locked loops; direct digital synthesizers; stabilizing thermal drift; microphonics; high-accuracy oscillators SUBELEMENT E8 - SIGNALS AND EMISSIONS [4 Exam Questions - 4 Groups]  48 Questions E8A Fourier analysis; RMS measurements; average RF power and peak envelope power (PEP); analog/digital conversion E8B Modulation and demodulation: modulation methods; modulation index and deviation ratio; frequency- and time-division multiplexing; orthogonal frequency-division multiplexing (OFDM) E8C Digital signals: digital communication modes; information rate vs. bandwidth; error correction; constellation diagrams E8D Keying defects and overmodulation of digital signals; digital codes; spread spectrum SUBELEMENT E9 - ANTENNAS AND TRANSMISSION LINES [8 Exam Questions - 8 Groups]  94 Questions E9A Basic antenna parameters: radiation resistance, gain, beamwidth, efficiency; effective radiated power (ERP) and effective isotropic radiated power (EIRP) E9B Antenna patterns and designs: azimuth and elevation patterns; gain as a function of pattern; antenna modeling E9C Practical wire antennas; folded dipoles; phased arrays; effects of ground near antennas E9D Yagi antennas; parabolic reflectors; feed point impedance and loading of electrically short antennas; antenna Q; RF grounding E9E Impedance matching: matching antennas to feed lines; phasing lines; power dividers E9F Transmission lines: characteristics of open and shorted feed lines; coax versus open wire; velocity factor; electrical length; coaxial cable dielectrics; microstrip E9G The Smith chart E9H Receiving antennas: radio direction finding (RDF) techniques; Beverage antennas; single- and multiple-turn loops SUBELEMENT E0 - SAFETY - [1 exam question - 1 group]  12 Questions E0A Safety: RF radiation hazards; hazardous materials; grounding 2024-2028 Extra Class FCC Element 4 Question Pool Effective July 1, 2024 SUBELEMENT E1 - COMMISSION RULES [6 Exam Questions - 6 Groups] E1A Frequency privileges; signal frequency range; automatic message forwarding; stations aboard ships or aircraft; power restriction on 630- and 2200-meter bands E1A01 (D) [97.305, 97.307(b)] Why is it not legal to transmit a 3 kHz bandwidth USB signal with a carrier frequency of 14.348 MHz?",
+   "group": "E1A",
+   "question": "Why is it not legal to transmit a 3 kHz bandwidth USB signal with a carrier frequency of 14.348 MHz?",
    "answers": [
     "USB is not used on 20-meter phone",
     "The lower 1 kHz of the signal is outside the 20-meter band",
     "14.348 MHz is outside the 20-meter band",
     "The upper 1 kHz of the signal is outside the 20-meter band"
    ],
-   "correct": 2,
-   "refs": "97.509(m)",
-   "figures": []
+   "correct": 3,
+   "refs": "97.305, 97.307(b)",
+   "figures": [],
+   "explanation": "The 20 m band ends at 14.350 MHz (§97.301). A USB signal occupies the carrier frequency up to about 3 kHz above it, so with the carrier at 14.348 MHz the signal extends to 14.351 MHz, putting the top 1 kHz outside the band."
   },
   {
    "id": "E1A02",
@@ -358,7 +363,8 @@
    ],
    "correct": 3,
    "refs": "97.301, 97.305",
-   "figures": []
+   "figures": [],
+   "explanation": "LSB puts the signal energy below the displayed carrier frequency, roughly 3 kHz wide. So the carrier has to be at least 3 kHz above the lower edge of the phone segment for the whole emission to stay inside it (§97.301, §97.305)."
   },
   {
    "id": "E1A03",
@@ -373,7 +379,8 @@
    ],
    "correct": 2,
    "refs": "97.305, 97.307(b)",
-   "figures": []
+   "figures": [],
+   "explanation": "The 20 m data segment ends at 14.150 MHz (§97.305). A USB signal sits above the carrier, so the carrier can be no higher than 14.150 − 0.0028 = 14.1472 MHz."
   },
   {
    "id": "E1A04",
@@ -388,7 +395,10 @@
    ],
    "correct": 2,
    "refs": "97.301, 97.305",
-   "figures": []
+   "figures": [],
+   "explanation": "The 75 m phone segment starts at 3.600 MHz. An LSB signal with its carrier at 3.601 MHz extends about 3 kHz below it, to roughly 3.598 MHz, so part of it falls outside the phone segment.",
+   "explanationConfidence": "low",
+   "explanationNote": "Assumes the LSB occupied bandwidth is ~3 kHz."
   },
   {
    "id": "E1A05",
@@ -403,7 +413,8 @@
    ],
    "correct": 2,
    "refs": "97.5",
-   "figures": []
+   "figures": [],
+   "explanation": "Under §97.5(a)(2), an amateur station on a US-documented vessel or craft must be under the physical control of someone holding an FCC-issued amateur license or authorized for alien reciprocal operation. No other license or permit is needed."
   },
   {
    "id": "E1A06",
@@ -418,7 +429,8 @@
    ],
    "correct": 1,
    "refs": "97.303(h)(1)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.303(h)(1) requires 60 m CW emissions to be centered on the channel center frequency. Since a CW signal is just the carrier, you transmit right on the center frequency."
   },
   {
    "id": "E1A07",
@@ -433,7 +445,8 @@
    ],
    "correct": 2,
    "refs": "97.313(k)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.313(k) limits 2200 m (135.7–137.8 kHz) stations to 1 W EIRP."
   },
   {
    "id": "E1A08",
@@ -448,7 +461,8 @@
    ],
    "correct": 1,
    "refs": "97.219",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.219(b): in a message forwarding system, the control operator of the originating station is primarily accountable for any violation. Forwarding stations that pass a violating message on inadvertently are not held accountable."
   },
   {
    "id": "E1A09",
@@ -463,7 +477,8 @@
    ],
    "correct": 3,
    "refs": "97.313(l)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.313(l) limits 630 m (472–479 kHz) stations to 5 W EIRP. Stations in parts of Alaska close to Russia are limited to 1 W EIRP."
   },
   {
    "id": "E1A10",
@@ -478,7 +493,8 @@
    ],
    "correct": 0,
    "refs": "97.11",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.11(a) requires that an amateur station aboard a ship or aircraft be operated only with the approval of the ship's master or the aircraft's pilot in command. Its installation must also be separate from the vessel's main radio equipment."
   },
   {
    "id": "E1A11",
@@ -493,7 +509,8 @@
    ],
    "correct": 1,
    "refs": "97.5",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.5(a)(2): on a US-registered vessel, any person holding an FCC-issued amateur license, of any class, may operate. No marine endorsement or commercial permit is required."
   },
   {
    "id": "E1B01",
@@ -508,7 +525,8 @@
    ],
    "correct": 3,
    "refs": "97.3",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.3(a)(43) defines a spurious emission as an emission on frequencies outside the necessary bandwidth whose level can be reduced without affecting the information being transmitted. Harmonics, parasitics and intermodulation products are examples."
   },
   {
    "id": "E1B02",
@@ -523,7 +541,8 @@
    ],
    "correct": 0,
    "refs": "97.307(f)(2)",
-   "figures": []
+   "figures": [],
+   "explanation": "Digital voice and SSTV on HF must not take up more bandwidth than a typical voice SSB signal, which is about 3 kHz (§97.307(f)(2))."
   },
   {
    "id": "E1B03",
@@ -538,7 +557,8 @@
    ],
    "correct": 0,
    "refs": "97.13",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.13: a station within 1 mile of an FCC monitoring facility must protect it from harmful interference."
   },
   {
    "id": "E1B04",
@@ -553,7 +573,8 @@
    ],
    "correct": 2,
    "refs": "97.303(b)",
-   "figures": []
+   "figures": [],
+   "explanation": "Amateurs are secondary in 70 cm, and government radiolocation is primary (§97.303(b)). A repeater causing interference must stop transmitting or be modified until the interference is resolved."
   },
   {
    "id": "E1B05",
@@ -568,7 +589,8 @@
    ],
    "correct": 2,
    "refs": "97.3",
-   "figures": []
+   "figures": [],
+   "explanation": "The National Radio Quiet Zone protects the radio telescopes at Green Bank, WV (NRAO) and the Navy facility at Sugar Grove. It covers parts of West Virginia and Virginia (§97.3(a)(33), §97.203(e))."
   },
   {
    "id": "E1B06",
@@ -583,7 +605,8 @@
    ],
    "correct": 0,
    "refs": "97.15",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.15(a): antenna structures near public-use airports may need FAA notification and FCC registration (ASR) under 47 CFR Part 17, depending on height and distance from the runway."
   },
   {
    "id": "E1B07",
@@ -598,7 +621,8 @@
    ],
    "correct": 2,
    "refs": "97.15",
-   "figures": []
+   "figures": [],
+   "explanation": "PRB-1 (codified at §97.15(b)) preempts state and local zoning that does not reasonably accommodate amateur antennas. It does not cover private restrictions such as HOA covenants."
   },
   {
    "id": "E1B08",
@@ -613,7 +637,8 @@
    ],
    "correct": 3,
    "refs": "97.121",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.121(a): if a station interferes with domestic broadcast reception on well-engineered receivers, the FCC can impose quiet hours. These are periods when the station must not transmit on the offending frequencies."
   },
   {
    "id": "E1B09",
@@ -628,7 +653,8 @@
    ],
    "correct": 2,
    "refs": "97.407",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.407(a): any FCC-licensed amateur station may operate in RACES if it is certified by the responsible civil defense organization for the area served."
   },
   {
    "id": "E1B10",
@@ -643,7 +669,8 @@
    ],
    "correct": 0,
    "refs": "97.407",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.407(b): a RACES station may use all amateur frequencies its control operator is authorized to use, except that RACES drills and tests may be restricted."
   },
   {
    "id": "E1B11",
@@ -658,7 +685,8 @@
    ],
    "correct": 1,
    "refs": "97.15",
-   "figures": []
+   "figures": [],
+   "explanation": "PRB-1 (§97.15(b)) requires state and local regulations on amateur antennas to reasonably accommodate amateur communications, using the minimum practicable regulation needed for the local authority's legitimate purpose."
   },
   {
    "id": "E1C01",
@@ -673,7 +701,8 @@
    ],
    "correct": 3,
    "refs": "97.303",
-   "figures": []
+   "figures": [],
+   "explanation": "On the 60 m channels, data emissions may be no wider than 2.8 kHz (§97.303(h))."
   },
   {
    "id": "E1C02",
@@ -688,7 +717,8 @@
    ],
    "correct": 2,
    "refs": "97.117",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.117: communications with foreign amateur stations must be limited to those incidental to the purposes of the amateur service, plus remarks of a personal character."
   },
   {
    "id": "E1C03",
@@ -703,7 +733,8 @@
    ],
    "correct": 1,
    "refs": "97.303(g)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.303(g): after notifying the UTC, a station may operate on 630 m or 2200 m after 30 days unless UTC has said it is within 1 km of a PLC system using those frequencies."
   },
   {
    "id": "E1C04",
@@ -718,7 +749,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The IARP (International Amateur Radio Permit) is issued under a CITEL (Inter-American) convention. It lets a US amateur operate in participating countries of the Americas without getting a separate license."
   },
   {
    "id": "E1C05",
@@ -733,7 +765,8 @@
    ],
    "correct": 1,
    "refs": "97.221(c)(1), 97.115(c)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.115(c): no station may transmit third-party communications while automatically controlled, except when transmitting RTTY or data emissions."
   },
   {
    "id": "E1C06",
@@ -748,7 +781,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Operating under CEPT T/R 61-01 requires carrying FCC Public Notice DA 16-1048, along with proof of US citizenship and your FCC license."
   },
   {
    "id": "E1C07",
@@ -763,7 +797,8 @@
    ],
    "correct": 3,
    "refs": "97.303(g)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.303(g) requires you to notify the Utilities Technology Council of your call sign and station coordinates before operating on 630 m or 2200 m."
   },
   {
    "id": "E1C08",
@@ -778,7 +813,8 @@
    ],
    "correct": 1,
    "refs": "97.213",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.213(b): a remotely controlled station must stop transmitting within 3 minutes if its control link fails."
   },
   {
    "id": "E1C09",
@@ -793,7 +829,8 @@
    ],
    "correct": 1,
    "refs": "97.307",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.307(f)(1) limits angle modulation below 29 MHz to a maximum modulation index of 1 at the highest modulating frequency."
   },
   {
    "id": "E1C10",
@@ -808,7 +845,8 @@
    ],
    "correct": 0,
    "refs": "97.307",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.307(d): for transmitters installed after Jan 1, 2003, spurious emissions below 30 MHz must be at least 43 dB below the mean power of the fundamental."
   },
   {
    "id": "E1C11",
@@ -823,7 +861,8 @@
    ],
    "correct": 0,
    "refs": "97.5",
-   "figures": []
+   "figures": [],
+   "explanation": "Under the CEPT recommendation T/R 61-01, US citizens can operate in participating European countries, and CEPT licensees can operate in the US under §97.5 and §97.107 reciprocal provisions."
   },
   {
    "id": "E1C12",
@@ -838,7 +877,8 @@
    ],
    "correct": 3,
    "refs": "97.305(c)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.305(c) authorizes phone, CW, RTTY and data across the whole 630 m band (472–479 kHz)."
   },
   {
    "id": "E1D01",
@@ -853,7 +893,8 @@
    ],
    "correct": 0,
    "refs": "97.3",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.3(a)(46) defines telemetry as a one-way transmission of measurements at a distance from the measuring instrument."
   },
   {
    "id": "E1D02",
@@ -868,7 +909,8 @@
    ],
    "correct": 1,
    "refs": "97.211(b)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.211(b) lets space telecommand stations transmit special codes intended to obscure the meaning of command messages to a space station. This is a narrow exception to the general ban on encryption."
   },
   {
    "id": "E1D03",
@@ -883,7 +925,8 @@
    ],
    "correct": 1,
    "refs": "97.3(a)(45)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.3(a)(44): a telecommand station transmits communications that initiate, modify or terminate functions of a device at a distance. A space telecommand station does this for a space station."
   },
   {
    "id": "E1D04",
@@ -898,7 +941,8 @@
    ],
    "correct": 0,
    "refs": "97.119(a)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.119(a) requires every station, including a balloon-borne telemetry station, to identify by transmitting its call sign. Power and grid locator are not required."
   },
   {
    "id": "E1D05",
@@ -913,7 +957,8 @@
    ],
    "correct": 3,
    "refs": "97.213(d)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.213(d) requires a station operated by telecommand on or within 50 km of Earth's surface to post a photocopy of the license and labels with the licensee's and control operator's names, addresses and phone numbers, so all three choices are correct."
   },
   {
    "id": "E1D06",
@@ -928,7 +973,8 @@
    ],
    "correct": 0,
    "refs": "97.215(c)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.215(c) limits the transmitter output power for telecommand of model craft to 1 W."
   },
   {
    "id": "E1D07",
@@ -943,7 +989,8 @@
    ],
    "correct": 0,
    "refs": "97.207",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.207(c) authorizes space stations on 40 m, 20 m, 17 m, 15 m, 12 m and 10 m. Among the HF choices given, the correct set is 40, 20, 15 and 10 m."
   },
   {
    "id": "E1D08",
@@ -958,7 +1005,8 @@
    ],
    "correct": 3,
    "refs": "97.207",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.207(c)(2): the only VHF space-station allocation is 2 m (144–146 MHz)."
   },
   {
    "id": "E1D09",
@@ -973,7 +1021,8 @@
    ],
    "correct": 1,
    "refs": "97.207",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.207(c)(2): the UHF space-station allocations are 435–438 MHz (70 cm) and 2400–2450 MHz (13 cm)."
   },
   {
    "id": "E1D10",
@@ -988,7 +1037,8 @@
    ],
    "correct": 1,
    "refs": "97.211",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.211(a): any amateur station designated by the space station licensee may be a telecommand station, within the privileges of its control operator."
   },
   {
    "id": "E1D11",
@@ -1003,7 +1053,8 @@
    ],
    "correct": 3,
    "refs": "97.209",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.209(a): any amateur station may be an Earth station, within the privileges of its control operator's license class."
   },
   {
    "id": "E1D12",
@@ -1018,7 +1069,10 @@
    ],
    "correct": 0,
    "refs": "97.207(e), 97.203(g)",
-   "figures": []
+   "figures": [],
+   "explanation": "One-way communications are specifically authorized for space stations (§97.207(e)), beacons (§97.203(g)) and, via §97.111(b), telecommand stations.",
+   "explanationConfidence": "low",
+   "explanationNote": "Telecommand one-way authority attributed to §97.111(b) (text truncated in our eCFR check); space station §97.207(e) and beacon §97.203(g) verified."
   },
   {
    "id": "E1E01",
@@ -1033,7 +1087,8 @@
    ],
    "correct": 0,
    "refs": "97.527",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.527: VEs and VECs may be reimbursed for out-of-pocket expenses of preparing, processing, administering and coordinating examinations, but not for training courses or materials."
   },
   {
    "id": "E1E02",
@@ -1048,7 +1103,8 @@
    ],
    "correct": 2,
    "refs": "97.523",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.523: all VECs must cooperate in maintaining one question pool for each written element. The NCVEC Question Pool Committee does this work."
   },
   {
    "id": "E1E03",
@@ -1063,7 +1119,8 @@
    ],
    "correct": 2,
    "refs": "97.521",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.521: a VEC is an organization that has entered into an agreement with the FCC to coordinate amateur license examination efforts."
   },
   {
    "id": "E1E04",
@@ -1078,7 +1135,8 @@
    ],
    "correct": 3,
    "refs": "97.509, 97.525",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509 and §97.525: a VE must be accredited by a VEC, which checks that the applicant meets the FCC requirements (license class, age, no revocation history, and so on)."
   },
   {
    "id": "E1E05",
@@ -1093,7 +1151,8 @@
    ],
    "correct": 1,
    "refs": "97.509(j)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(j): if the examinee does not pass, the VEs return the application document to the examinee and tell them the grade."
   },
   {
    "id": "E1E06",
@@ -1108,7 +1167,8 @@
    ],
    "correct": 2,
    "refs": "97.509",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(c): each administering VE is responsible for the proper conduct and necessary supervision of the exam session."
   },
   {
    "id": "E1E07",
@@ -1123,7 +1183,8 @@
    ],
    "correct": 1,
    "refs": "97.509, 97.511",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(c): administering VEs must immediately terminate the exam of any examinee who fails to follow their instructions."
   },
   {
    "id": "E1E08",
@@ -1138,7 +1199,8 @@
    ],
    "correct": 2,
    "refs": "97.509",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(d): a VE may not administer an exam to a spouse, child, grandchild, stepchild, parent, grandparent, stepparent, brother, sister, stepbrother, stepsister, aunt, uncle, niece, nephew or in-law."
   },
   {
    "id": "E1E09",
@@ -1153,7 +1215,8 @@
    ],
    "correct": 0,
    "refs": "97.509",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(e): a VE who fraudulently administers or certifies an exam can have their amateur station license revoked and their operator license suspended."
   },
   {
    "id": "E1E10",
@@ -1168,7 +1231,8 @@
    ],
    "correct": 2,
    "refs": "97.509(m)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(m): after a successful exam, the administering VEs submit the application document to the coordinating VEC, following the VEC's instructions."
   },
   {
    "id": "E1E11",
@@ -1183,7 +1247,8 @@
    ],
    "correct": 1,
    "refs": "97.509(i)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.509(i): when an examinee passes, three VEs must certify that the examinee is qualified for the license grant and that the VEs complied with the administering-VE requirements."
   },
   {
    "id": "E1F01",
@@ -1198,7 +1263,8 @@
    ],
    "correct": 1,
    "refs": "97.305",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.305(c): spread spectrum (SS) emissions are authorized only on amateur bands above 222 MHz."
   },
   {
    "id": "E1F02",
@@ -1213,7 +1279,8 @@
    ],
    "correct": 2,
    "refs": "97.107",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.107(a): a Canadian licensee operating in the US may use the operating terms of their Canadian license, but not beyond US Amateur Extra privileges."
   },
   {
    "id": "E1F03",
@@ -1228,7 +1295,8 @@
    ],
    "correct": 3,
    "refs": "97.315",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.315(b): an uncertificated external amplifier for use below 144 MHz may be sold to an amateur in a few cases. One is when it was constructed or modified by an amateur radio operator for use at an amateur station."
   },
   {
    "id": "E1F04",
@@ -1243,7 +1311,8 @@
    ],
    "correct": 0,
    "refs": "97.3",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.3(a)(30): Line A runs roughly parallel to and south of the US–Canada border. North of it, some 420–430 MHz operation is prohibited to protect Canadian services."
   },
   {
    "id": "E1F05",
@@ -1258,7 +1327,8 @@
    ],
    "correct": 3,
    "refs": "97.303",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.303(m)(1): stations in the contiguous US north of Line A may not transmit on 420–430 MHz."
   },
   {
    "id": "E1F06",
@@ -1273,7 +1343,8 @@
    ],
    "correct": 0,
    "refs": "1.931",
-   "figures": []
+   "figures": [],
+   "explanation": "§1.931: the FCC may grant an STA for temporary, special-circumstance operation, such as experimental amateur communications not covered by the rules."
   },
   {
    "id": "E1F07",
@@ -1288,7 +1359,8 @@
    ],
    "correct": 3,
    "refs": "97.113",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.113(a)(3): amateurs may communicate with businesses only when neither the amateur nor their employer has a pecuniary interest in the communication."
   },
   {
    "id": "E1F08",
@@ -1303,7 +1375,8 @@
    ],
    "correct": 0,
    "refs": "97.113(c)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.113(a)(2) prohibits communications for hire or for material compensation, direct or indirect, except where the rules provide otherwise (for example, certain teachers and club station operators)."
   },
   {
    "id": "E1F09",
@@ -1318,7 +1391,8 @@
    ],
    "correct": 2,
    "refs": "FCC Part 97.113(a)(4)",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.113(a)(4) prohibits messages encoded to obscure their meaning on all amateur stations, including mesh networks. Third-party traffic and email are allowed within the rules."
   },
   {
    "id": "E1F10",
@@ -1333,7 +1407,8 @@
    ],
    "correct": 1,
    "refs": "97.201",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.201(a): only a holder of a Technician, General, Advanced or Amateur Extra license may be the control operator of an auxiliary station."
   },
   {
    "id": "E1F11",
@@ -1348,7 +1423,8 @@
    ],
    "correct": 3,
    "refs": "97.317",
-   "figures": []
+   "figures": [],
+   "explanation": "§97.317: to be certificated, an external amplifier must meet the spurious emission standards when operated at the lesser of 1.5 kW PEP or its full output power."
   },
   {
    "id": "E2A01",
@@ -1363,7 +1439,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An ascending pass is the part of an orbit where the satellite is moving northward, so it comes up from the south and travels south to north. A descending pass goes north to south."
   },
   {
    "id": "E2A02",
@@ -1378,7 +1455,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An inverting transponder mixes the uplink with a local oscillator and transmits the difference product. That reverses the passband (the high end of the uplink comes out at the low end of the downlink) and swaps USB and LSB. The uplink and downlink Doppler shifts then partly cancel, so all three statements are true."
   },
   {
    "id": "E2A03",
@@ -1393,7 +1471,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The transponder mixes the received band with a local oscillator and retransmits the difference frequency (LO − f), which inverts the spectrum. It does not demodulate the signal."
   },
   {
    "id": "E2A04",
@@ -1408,7 +1487,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A satellite's mode describes its uplink and downlink bands. For example, mode U/V means a 70 cm uplink and a 2 m downlink."
   },
   {
    "id": "E2A05",
@@ -1423,7 +1503,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Mode letters name the uplink and downlink frequency bands (for example V = 2 m, U = 70 cm, L = 23 cm, S = 13 cm)."
   },
   {
    "id": "E2A06",
@@ -1438,7 +1519,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Keplerian elements are the set of orbital parameters (inclination, RAAN, eccentricity, argument of perigee, mean anomaly, mean motion, epoch) that tracking programs use to predict where a satellite will be."
   },
   {
    "id": "E2A07",
@@ -1453,7 +1535,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A linear transponder retransmits everything in its passband faithfully, so any mode can go through it: FM, CW, SSB, SSTV, PSK and packet. FM is discouraged because its constant power uses up the shared downlink power."
   },
   {
    "id": "E2A08",
@@ -1468,7 +1551,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "All users share the transponder's limited downlink power. An overly strong uplink takes a bigger share and reduces the downlink power everyone else gets."
   },
   {
    "id": "E2A09",
@@ -1483,7 +1567,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In amateur satellite usage, L band is 23 cm (1.2 GHz) and S band is 13 cm (2.4 GHz)."
   },
   {
    "id": "E2A10",
@@ -1498,7 +1583,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A geostationary satellite orbits above the equator at about 35,786 km with a 24-hour period, so it appears fixed in the sky. QO-100 is an amateur example."
   },
   {
    "id": "E2A11",
@@ -1513,7 +1599,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Circular polarization receives signals of any linear polarization angle, so the polarization changes from satellite spin and Faraday rotation cause much less fading."
   },
   {
    "id": "E2A12",
@@ -1528,7 +1615,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Store-and-forward satellites (\"PACSATs\") receive digital messages, keep them in memory, and download them later when the satellite passes over the destination ground station."
   },
   {
    "id": "E2B01",
@@ -1543,7 +1631,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A code rate of 3/4 means 3 of every 4 bits are payload and 1 of every 4 (25%) is forward error correction redundancy."
   },
   {
    "id": "E2B02",
@@ -1558,7 +1647,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An NTSC frame has 525 horizontal lines, sent as two interlaced fields of 262.5 lines each, at about 30 frames per second."
   },
   {
    "id": "E2B03",
@@ -1573,7 +1663,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Interlacing sends the odd-numbered lines in one field and the even-numbered lines in the next field, giving 60 fields per second and less flicker."
   },
   {
    "id": "E2B04",
@@ -1588,7 +1679,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Analog color SSTV modes such as Martin and Scottie send the color components (for example green, blue, red) as separate scan lines, one after another."
   },
   {
    "id": "E2B05",
@@ -1603,7 +1695,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "VSB transmits one full sideband and only part of the other. That saves bandwidth compared with full AM, while keeping the low-frequency video components that a pure SSB filter would distort."
   },
   {
    "id": "E2B06",
@@ -1618,7 +1711,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Vestigial sideband is AM in which one complete sideband and a portion (vestige) of the other sideband are transmitted."
   },
   {
    "id": "E2B07",
@@ -1633,7 +1727,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DVB-T uses OFDM, with each subcarrier modulated by QPSK or QAM (16- or 64-QAM)."
   },
   {
    "id": "E2B08",
@@ -1648,7 +1743,10 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Some 70 cm ATV frequencies fall on cable TV channels (for example channels 57–61). A cable-ready analog TV can tune them directly.",
+   "explanationConfidence": "low",
+   "explanationNote": "Exact cable channel numbers paraphrased."
   },
   {
    "id": "E2B09",
@@ -1663,7 +1761,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DRM digital SSTV fits in a voice channel, so it is sent and received on an ordinary SSB transceiver with the decoding done by computer software."
   },
   {
    "id": "E2B10",
@@ -1678,7 +1777,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Analog SSTV is frequency modulated: brightness is set by the tone frequency, from 1500 Hz (black) to 2300 Hz (white). Sync pulses are at 1200 Hz."
   },
   {
    "id": "E2B11",
@@ -1693,7 +1793,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The VIS (Vertical Interval Signaling) code at the start of a transmission is a short digital tone sequence that tells the receiving software which SSTV mode is in use."
   },
   {
    "id": "E2B12",
@@ -1708,7 +1809,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Each line begins with a sync pulse at a specific tone frequency (1200 Hz), which the decoder detects to start a new line."
   },
   {
    "id": "E2C01",
@@ -1723,7 +1825,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "For remote operation of a station located in the US, the FCC requires only normal identification with your own call sign. No portable or remote indicator is required."
   },
   {
    "id": "E2C02",
@@ -1738,7 +1841,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ADIF (Amateur Data Interchange Format) is the standard file format for exchanging log data between logging programs, LoTW, QRZ and similar services."
   },
   {
    "id": "E2C03",
@@ -1753,7 +1857,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "By convention (IARU band plans) contests are not held on the WARC bands: 30 m, 17 m and 12 m."
   },
   {
    "id": "E2C04",
@@ -1768,7 +1873,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Amateur mesh networks (for example AREDN) use 2.4, 3.4 and 5.8 GHz channels that are shared with unlicensed Part 15 Wi-Fi devices."
   },
   {
    "id": "E2C05",
@@ -1783,7 +1889,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A QSL manager handles the incoming and outgoing QSL card and confirmation work for a DX station or DXpedition."
   },
   {
    "id": "E2C06",
@@ -1798,7 +1905,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "VHF/UHF SSB and CW contest activity is concentrated in the weak-signal segment, near the calling frequency (for example 50.125, 144.200 and 432.100 MHz)."
   },
   {
    "id": "E2C07",
@@ -1813,7 +1921,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Cabrillo is the standard text format for submitting electronic contest logs to sponsors."
   },
   {
    "id": "E2C08",
@@ -1828,7 +1937,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "LoTW confirms any valid QSO in which both stations upload matching records: US-to-US, special event, or DX contacts. It supports awards such as WAS and DXCC, so all the choices are correct."
   },
   {
    "id": "E2C09",
@@ -1843,7 +1953,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Amateur mesh nodes are usually commercial Wi-Fi routers reflashed with amateur firmware (AREDN), often operating at higher power under Part 97."
   },
   {
    "id": "E2C10",
@@ -1858,7 +1969,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Working split avoids answering on frequencies some callers aren't permitted to use, keeps the pileup off the DX station's transmit frequency, and makes the DX station more efficient. All the reasons apply."
   },
   {
    "id": "E2C11",
@@ -1873,7 +1985,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Sending your full call once or twice is the courteous, efficient practice. Partial calls and long repeated calls slow down the pileup."
   },
   {
    "id": "E2C12",
@@ -1888,7 +2001,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Latency is the delay between a control action, such as keying at the remote operator position, and the resulting change in the transmitted signal."
   },
   {
    "id": "E2D01",
@@ -1903,7 +2017,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "MSK144 is the WSJT-X mode designed for the short, bursty propagation of meteor scatter."
   },
   {
    "id": "E2D02",
@@ -1918,7 +2033,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "VHF contests require a grid square exchange, so in the FT8/FT4 contest modes the grid replaces the SNR report."
   },
   {
    "id": "E2D03",
@@ -1933,7 +2049,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Q65 is designed for weak, Doppler-spread paths such as EME and ionospheric scatter. It can average across transmissions to decode very weak signals."
   },
   {
    "id": "E2D04",
@@ -1948,7 +2065,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "APRS position packets, often relayed by digipeaters and iGates to the internet, are the usual way to track high-altitude balloons in real time."
   },
   {
    "id": "E2D05",
@@ -1963,7 +2081,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "JT65 uses strong error correction and long, slow transmissions, so it can decode signals well below the noise (around −25 dB SNR in 2.5 kHz)."
   },
   {
    "id": "E2D06",
@@ -1978,7 +2097,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "EME stations transmit and receive in alternating, time-synchronized periods (for example 1-minute periods for JT65 or Q65), so each station knows when to listen."
   },
   {
    "id": "E2D07",
@@ -1993,7 +2113,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "APRS uses the AX.25 packet radio protocol."
   },
   {
    "id": "E2D08",
@@ -2008,7 +2129,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "APRS beacons are sent as AX.25 Unnumbered Information (UI) frames. These are connectionless broadcasts that need no acknowledgment."
   },
   {
    "id": "E2D09",
@@ -2023,7 +2145,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "JT65 uses 65-tone frequency-shift keying, i.e. multitone AFSK."
   },
   {
    "id": "E2D10",
@@ -2038,7 +2161,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In WIDEn-N, n is the number of hops requested and N is the number remaining. WIDE3-1 means 3 hops were requested and 1 is left."
   },
   {
    "id": "E2D11",
@@ -2053,7 +2177,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "APRS packets are relayed by digipeaters, which receive and retransmit them on the same frequency."
   },
   {
    "id": "E2E01",
@@ -2068,7 +2193,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Most HF data emissions (RTTY, PSK modes, PACTOR and others) are forms of frequency- or phase-shift keying. FSK is the classic example."
   },
   {
    "id": "E2E02",
@@ -2083,7 +2209,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "WSJT-X modes transmit and receive in fixed time slots, so the computer clocks at both ends must be accurate to within about a second, usually by NTP or GPS."
   },
   {
    "id": "E2E03",
@@ -2098,7 +2225,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FT4 uses 4-tone continuous-phase FSK (4-GFSK)."
   },
   {
    "id": "E2E04",
@@ -2113,7 +2241,10 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FST4 uses 4-GFSK, offers variable T/R periods (15 s to 30 min), and several tone spacings. Per the pool key, all the statements are correct.",
+   "explanationConfidence": "low",
+   "explanationNote": "FST4 'seven tone spacings' detail not independently verified; explanation follows pool key."
   },
   {
    "id": "E2E05",
@@ -2128,7 +2259,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "WSPR only sends beacon reports (call, grid, power) for propagation study. It cannot carry free keyboard-to-keyboard text."
   },
   {
    "id": "E2E06",
@@ -2143,7 +2275,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FT8 uses 15-second transmit/receive periods."
   },
   {
    "id": "E2E07",
@@ -2158,7 +2291,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Q65 can average multiple receive cycles to decode signals too weak to copy in any single period, which is very useful for EME. JT65 decodes each period separately."
   },
   {
    "id": "E2E08",
@@ -2173,7 +2307,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PACTOR is an ARQ mode with error-free binary transfer, so it can send binary files. The others are character-based."
   },
   {
    "id": "E2E09",
@@ -2188,7 +2323,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PSK31 uses Varicode, a variable-length code in which frequent characters get shorter codes."
   },
   {
    "id": "E2E10",
@@ -2203,7 +2339,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An FT8 signal is about 50 Hz wide. MFSK16 is about 316 Hz, 170 Hz RTTY is about 250 Hz, and PACTOR IV is about 2.4 kHz."
   },
   {
    "id": "E2E11",
@@ -2218,7 +2355,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Direct FSK shifts the transmitter's VFO or oscillator directly. AFSK feeds audio tones into an SSB transmitter."
   },
   {
    "id": "E2E12",
@@ -2233,7 +2371,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ALE radios keep scanning a programmed list of frequencies. When one hears a call addressed to its call sign it stops and alerts the operator, and the link is set up on that frequency."
   },
   {
    "id": "E2E13",
@@ -2248,7 +2387,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PACTOR IV uses adaptive high-order modulation in about 2.4 kHz and reaches several kbit/s on good paths, far faster than the other modes listed."
   },
   {
    "id": "E3A01",
@@ -2263,7 +2403,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The only requirement for EME is that both stations can see the Moon at the same time. Stations nearly on opposite sides of the Earth can do that, so the separation can reach about 12,000 miles."
   },
   {
    "id": "E3A02",
@@ -2278,7 +2419,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The Moon's libration (its apparent rocking) makes reflections from different parts of its rough surface add and cancel as they change. The result is a rapid, fluttery, irregular fade."
   },
   {
    "id": "E3A03",
@@ -2293,7 +2435,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Path loss rises with distance. At perigee the Moon is about 10% closer than at apogee, which saves roughly 2 dB of round-trip path loss."
   },
   {
    "id": "E3A04",
@@ -2308,7 +2451,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An EM wave travels at right angles to both its electric and magnetic fields, in the direction of the Poynting vector E × H."
   },
   {
    "id": "E3A05",
@@ -2323,7 +2467,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In a radiated EM wave, the E and H fields are perpendicular to each other and to the direction of travel. In the far field they are also in phase."
   },
   {
    "id": "E3A06",
@@ -2338,7 +2483,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ionization drops after dark and the MUF falls with it. Moving to a lower band keeps the frequency below the MUF so the path stays open."
   },
   {
    "id": "E3A07",
@@ -2353,7 +2499,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Temperature and humidity inversions form readily over large bodies of water. The resulting ducts can guide VHF and microwave signals far beyond line of sight."
   },
   {
    "id": "E3A08",
@@ -2368,7 +2515,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Meteors burn up at roughly 85–120 km altitude, the E region, and leave ionized trails that can reflect radio signals."
   },
   {
    "id": "E3A09",
@@ -2383,7 +2531,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Meteor trails reflect best from about 28 MHz to 148 MHz (10 m, 6 m and 2 m). 6 m is the classic band for it."
   },
   {
    "id": "E3A10",
@@ -2398,7 +2547,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Wave velocity in a medium is v = c/n, where n is the index of refraction."
   },
   {
    "id": "E3A11",
@@ -2413,7 +2563,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Microwave tropospheric ducts commonly support paths of about 100–300 miles. Much longer paths sometimes occur."
   },
   {
    "id": "E3A12",
@@ -2428,7 +2579,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Severe geomagnetic storms push the aurora toward lower latitudes. The ionized auroral curtain scatters VHF and HF signals."
   },
   {
    "id": "E3A13",
@@ -2443,7 +2595,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Auroral reflection adds heavy Doppler spreading, so voice comes through as a raspy buzz. CW is the narrowest, most copyable mode under those conditions."
   },
   {
    "id": "E3A14",
@@ -2458,7 +2611,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In a circularly polarized wave, the E and H fields rotate around the direction of travel, completing one full turn every wavelength."
   },
   {
    "id": "E3B01",
@@ -2473,7 +2627,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "TEP crosses the geomagnetic equator on north–south paths of roughly 2,000–3,000 miles, between stations at similar distances north and south of it."
   },
   {
    "id": "E3B02",
@@ -2488,7 +2643,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "TEP can support paths up to about 5,000 miles."
   },
   {
    "id": "E3B03",
@@ -2503,7 +2659,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "TEP is strongest in the afternoon and early evening, when the equatorial ionization bulges are fully developed."
   },
   {
    "id": "E3B04",
@@ -2518,7 +2675,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The geomagnetic field splits a wave entering the ionosphere into two elliptically polarized components, the ordinary and extraordinary waves. They propagate independently and refract differently."
   },
   {
    "id": "E3B05",
@@ -2533,7 +2691,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "160 m signals are heavily absorbed by the daytime D layer, so long-distance contacts need a path that is entirely in darkness."
   },
   {
    "id": "E3B06",
@@ -2548,7 +2707,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Long-path propagation, the long way around the great circle, is most common on 40 m and 20 m."
   },
   {
    "id": "E3B07",
@@ -2563,7 +2723,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A lower takeoff angle hits the ionosphere farther away, so each hop covers more ground."
   },
   {
    "id": "E3B08",
@@ -2578,7 +2739,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ground-wave losses increase with frequency, so its range is greatest on LF and MF and shrinks as the frequency rises."
   },
   {
    "id": "E3B09",
@@ -2593,7 +2755,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Sporadic-E peaks around the solstices, most of all near the summer solstice (May–August in the Northern Hemisphere), with a smaller peak in winter."
   },
   {
    "id": "E3B10",
@@ -2608,7 +2771,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In chordal hop the signal refracts several times along the ionosphere without bouncing off the ground in between, so it avoids the ground-reflection losses of normal multi-hop."
   },
   {
    "id": "E3B11",
@@ -2623,7 +2787,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Sporadic-E is mainly a daytime phenomenon, most likely between sunrise and sunset. It often peaks in mid-morning and early evening."
   },
   {
    "id": "E3B12",
@@ -2638,7 +2803,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Chordal hop is a series of ionospheric refractions with no intermediate reflection from the ground."
   },
   {
    "id": "E3B13",
@@ -2653,7 +2819,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ground wave needs vertical polarization. The Earth effectively shorts out a horizontally polarized ground wave."
   },
   {
    "id": "E3C01",
@@ -2668,7 +2835,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The X-ray and UV burst from a solar flare reaches Earth in about 8 minutes. It ionizes the D layer heavily and causes sudden HF blackouts on the daylit side."
   },
   {
    "id": "E3C02",
@@ -2683,7 +2851,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The K-index (3-hour) and A-index (daily) measure geomagnetic activity. Rising values mean a more disturbed field."
   },
   {
    "id": "E3C03",
@@ -2698,7 +2867,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When geomagnetic activity is high, paths that pass through the auroral oval at high latitudes suffer strong absorption."
   },
   {
    "id": "E3C04",
@@ -2713,7 +2883,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Bz is the north–south component of the interplanetary magnetic field carried by the solar wind."
   },
   {
    "id": "E3C05",
@@ -2728,7 +2899,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A southward Bz couples with Earth's northward-pointing field and lets solar wind energy and particles in, which drives geomagnetic storms."
   },
   {
    "id": "E3C06",
@@ -2743,7 +2915,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Atmospheric refraction bends VHF and UHF waves slightly back toward Earth, so the radio horizon is about 15% farther than the optical one: d ≈ 1.415√h(ft) miles, versus about 1.23√h for the optical horizon."
   },
   {
    "id": "E3C07",
@@ -2758,7 +2931,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Solar flare classes, from weakest to strongest, are A, B, C, M and X. Each class is 10 times stronger than the one before, so X is the strongest."
   },
   {
    "id": "E3C08",
@@ -2773,7 +2947,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "On NOAA's geomagnetic storm scale, G5 is the extreme level. X5 and M9 are flare classes."
   },
   {
    "id": "E3C09",
@@ -2788,7 +2963,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Networks such as the Reverse Beacon Network, PSK Reporter and WSPRnet report actual received CW and digital-mode signals, giving real-time propagation data."
   },
   {
    "id": "E3C10",
@@ -2803,7 +2979,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "304 Å is the extreme-ultraviolet He II emission line. It tracks solar activity and correlates with the solar flux index."
   },
   {
    "id": "E3C11",
@@ -2818,7 +2995,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "VOACAP (Voice of America Coverage Analysis Program) predicts HF skywave propagation and reliability."
   },
   {
    "id": "E3C12",
@@ -2833,7 +3011,10 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A sudden rise in broadband HF noise accompanies solar radio bursts from flares and CME-driven disturbances.",
+   "explanationConfidence": "low",
+   "explanationNote": "Mechanism (solar radio burst noise) stated generally."
   },
   {
    "id": "E4A01",
@@ -2848,7 +3029,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "By the Nyquist criterion, a sampled signal can be reproduced accurately only up to half the ADC sample rate. So the sampling rate sets the highest frequency a digital scope can show correctly."
   },
   {
    "id": "E4A02",
@@ -2863,7 +3045,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A spectrum analyzer is a frequency-domain instrument: amplitude on the vertical axis, frequency on the horizontal."
   },
   {
    "id": "E4A03",
@@ -2878,7 +3061,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Spurs and IMD products are separate signals at other frequencies. A spectrum analyzer shows them, and their levels relative to the carrier."
   },
   {
    "id": "E4A04",
@@ -2893,7 +3077,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Probe compensation adjusts the probe's capacitive divider to match the scope input. With the scope's square-wave calibrator displayed, you trim the probe until the tops and bottoms are flat, with no overshoot and no rounding."
   },
   {
    "id": "E4A05",
@@ -2908,7 +3093,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A prescaler divides the input frequency by a known factor (for example ÷10) so it falls within the counter's range. The reading is then scaled back up."
   },
   {
    "id": "E4A06",
@@ -2923,7 +3109,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When a signal is sampled below its Nyquist rate, it aliases: the scope shows a false lower-frequency waveform that often looks unstable or jittery."
   },
   {
    "id": "E4A07",
@@ -2938,7 +3125,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An antenna analyzer has its own low-power signal source and computes SWR, impedance (R ± jX) and related values at any frequency. A simple SWR bridge only indicates SWR while you transmit."
   },
   {
    "id": "E4A08",
@@ -2953,7 +3141,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A directional wattmeter (forward/reflected), a VNA and an antenna analyzer can all determine SWR."
   },
   {
    "id": "E4A09",
@@ -2968,7 +3157,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A long probe ground lead adds inductance, which causes ringing and pickup. Keep the ground connection as short as possible."
   },
   {
    "id": "E4A10",
@@ -2983,7 +3173,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Line triggering syncs the sweep to the AC mains, so ripple at 60 or 120 Hz stands still on the screen."
   },
   {
    "id": "E4A11",
@@ -2998,7 +3189,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An antenna analyzer can find resonance, and with time-domain or open/short methods it can measure a cable's electrical length and velocity factor. All the choices are correct."
   },
   {
    "id": "E4B01",
@@ -3013,7 +3205,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A frequency counter counts cycles during a gate time set by its time base. Any error in the time base shows up directly in the reading."
   },
   {
    "id": "E4B02",
@@ -3028,7 +3221,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Input resistance = full-scale voltage × ohms-per-volt. For example, a 20,000 Ω/V meter on its 10 V range presents 200 kΩ."
   },
   {
    "id": "E4B03",
@@ -3043,7 +3237,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "S21 is the signal coming out of port 2 when port 1 is driven, i.e. forward transmission or gain."
   },
   {
    "id": "E4B04",
@@ -3058,7 +3253,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "S11 is the reflection at port 1, the input reflection coefficient. It relates directly to return loss and VSWR."
   },
   {
    "id": "E4B05",
@@ -3073,7 +3269,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "SOL calibration uses short, open and load (50 Ω) standards. They let the VNA remove its own systematic errors."
   },
   {
    "id": "E4B06",
@@ -3088,7 +3285,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Power absorbed by the load = forward − reflected = 100 − 25 = 75 W."
   },
   {
    "id": "E4B07",
@@ -3103,7 +3301,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In Sxy, x is the port where the signal is measured and y is the port being driven."
   },
   {
    "id": "E4B08",
@@ -3118,7 +3317,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Q = f0 / BW(−3 dB). Measuring the response bandwidth around resonance therefore gives Q."
   },
   {
    "id": "E4B09",
@@ -3133,7 +3333,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A two-port VNA measures S21 versus frequency, which is the filter's frequency response (insertion loss and passband shape)."
   },
   {
    "id": "E4B10",
@@ -3148,7 +3349,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The two-tone test feeds two non-harmonically related audio tones into the transmitter and looks at the RF output on a spectrum analyzer for IMD products at 2f1−f2 and 2f2−f1."
   },
   {
    "id": "E4B11",
@@ -3163,7 +3365,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A VNA measures complex reflection and transmission, so it gives input and output impedance and reflection coefficient. All the choices are correct."
   },
   {
    "id": "E4C01",
@@ -3178,7 +3381,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In reciprocal mixing, phase noise on the SDR clock or LO mixes with strong nearby signals and puts noise and interference on top of weak desired signals."
   },
   {
    "id": "E4C02",
@@ -3193,7 +3397,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A front-end filter or preselector removes strong out-of-band signals before they reach the first amplifier and mixer, where they could cause overload or IMD."
   },
   {
    "id": "E4C03",
@@ -3208,7 +3413,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In FM, the capture effect lets the stronger of two co-channel signals take over the demodulator and suppress the weaker one."
   },
   {
    "id": "E4C04",
@@ -3223,7 +3429,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Noise figure (dB) compares the noise the receiver actually adds with that of an ideal noiseless receiver (thermal noise only): NF = 10 log(F)."
   },
   {
    "id": "E4C05",
@@ -3238,7 +3445,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "kTB at 290 K in 1 Hz is −174 dBm. That is the thermal noise floor of a perfect receiver per hertz of bandwidth."
   },
   {
    "id": "E4C06",
@@ -3253,7 +3461,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Noise power scales with bandwidth: 10 log(1000/50) = 10 log(20) ≈ 13 dB."
   },
   {
    "id": "E4C07",
@@ -3268,7 +3477,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "MDS is the minimum discernible signal: the input level that just equals the noise floor (3 dB above noise) in a stated bandwidth."
   },
   {
    "id": "E4C08",
@@ -3283,7 +3493,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When the input exceeds the ADC's reference voltage (its full-scale range), the samples clip and the receiver is overloaded."
   },
   {
    "id": "E4C09",
@@ -3298,7 +3509,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "With a high IF, the image frequency (2 × IF away from the desired signal) lies far away, so simple front-end filters can reject it."
   },
   {
    "id": "E4C10",
@@ -3313,7 +3525,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Matching the receive bandwidth to the signal (for example 500 Hz for CW, 2.4 kHz for SSB) lets in the least noise and adjacent-signal interference, which gives the best SNR."
   },
   {
    "id": "E4C11",
@@ -3328,7 +3541,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "On the lower HF bands, atmospheric noise is far above the receiver's own noise. An attenuator lowers the signal and the band noise equally, so SNR barely changes while overload goes down."
   },
   {
    "id": "E4C12",
@@ -3343,7 +3557,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A roofing filter sits right after the first mixer and passes only a narrow band. It keeps strong nearby signals out of the later stages, which improves blocking dynamic range."
   },
   {
    "id": "E4C13",
@@ -3358,7 +3573,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Reciprocal mixing is LO phase noise mixing with strong adjacent signals, which spreads noise across the desired channel."
   },
   {
    "id": "E4C14",
@@ -3373,7 +3589,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "IF shift moves the IF passband relative to the signal, so you can move an adjacent interfering signal outside the filter without retuning."
   },
   {
    "id": "E4D01",
@@ -3388,7 +3605,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Blocking dynamic range runs from the noise floor (MDS) up to the level of an off-frequency signal that causes 1 dB of gain compression."
   },
   {
    "id": "E4D02",
@@ -3403,7 +3621,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A receiver with poor dynamic range lets strong signals cause cross-modulation and desensitization. That produces false signals and loss of weak ones."
   },
   {
    "id": "E4D03",
@@ -3418,7 +3637,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When two repeater transmitters couple into each other's final amplifiers, the nonlinear finals mix the signals and transmit IMD products."
   },
   {
    "id": "E4D04",
@@ -3433,7 +3653,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A circulator (an isolator when its third port is terminated) passes the transmitter's power out to the antenna but blocks signals coming back from a nearby transmitter. That prevents mixing in the final."
   },
   {
    "id": "E4D06",
@@ -3448,7 +3669,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Desensitization (blocking) is the drop in sensitivity caused by a strong nearby signal driving the front end into compression or AGC."
   },
   {
    "id": "E4D07",
@@ -3463,7 +3685,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Attenuation ahead of the first RF stage lowers the strong signal enough to keep the front end linear, which reduces desensitization."
   },
   {
    "id": "E4D08",
@@ -3478,7 +3701,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Intermodulation happens only in nonlinear devices. A nonlinear transfer curve creates sum and difference products of the input signals."
   },
   {
    "id": "E4D09",
@@ -3493,7 +3717,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A preselector is a tunable front-end filter. It rejects strong signals outside the band being received."
   },
   {
    "id": "E4D10",
@@ -3508,7 +3733,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The third-order intercept is the theoretical point where the IMD products would equal the desired signals in level. An IP3 of +40 dBm means two +40 dBm inputs would produce IMD equal to either one."
   },
   {
    "id": "E4D11",
@@ -3523,7 +3749,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Third-order products such as 2f1 − f2 fall close to the original signals, often inside the same band, so a filter cannot easily remove them."
   },
   {
    "id": "E4D12",
@@ -3538,7 +3765,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Received level = 40 + 10 − 3 − 136 = −89 dBm. The required level is MDS + SNR = −103 + 6 = −97 dBm, so the link margin is −89 − (−97) = +8 dB."
   },
   {
    "id": "E4D13",
@@ -3553,7 +3781,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Received level = 40 + 6 + 3 − 100 = −51 dBm."
   },
   {
    "id": "E4D14",
@@ -3568,7 +3797,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "−100 dBm = 10^(−10) mW = 10^(−13) W = 0.1 pW."
   },
   {
    "id": "E4E01",
@@ -3583,7 +3813,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An automatic notch filter attacks steady tones, and a CW signal is a steady carrier, so the ANF can notch out the signal you want."
   },
   {
    "id": "E4E02",
@@ -3598,7 +3829,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DSP noise reduction can reduce random (white) noise and many repetitive noises such as ignition and power-line noise. All the choices are correct."
   },
   {
    "id": "E4E03",
@@ -3613,7 +3845,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A noise blanker gates off the receiver during short, strong pulses. It works on impulse noise only."
   },
   {
    "id": "E4E04",
@@ -3628,7 +3861,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ferrite chokes on the charging leads present a high impedance to RF noise currents, which suppresses conducted alternator whine and noise."
   },
   {
    "id": "E4E05",
@@ -3643,7 +3877,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A brute-force AC line filter (LC low-pass) in series with the motor leads keeps RF noise from being conducted onto the wiring and radiated."
   },
   {
    "id": "E4E06",
@@ -3658,7 +3893,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ethernet and network gear can radiate clock and data harmonics. They show up as unstable or warbling signals on specific frequencies."
   },
   {
    "id": "E4E07",
@@ -3673,7 +3909,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Common-mode current on the outside of the shield and conductors, often from poor terminations or ground loops, makes the cable act as an antenna."
   },
   {
    "id": "E4E08",
@@ -3688,7 +3925,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Common-mode current flows equally and in the same direction on all conductors. Differential-mode current flows out on one conductor and back on another."
   },
   {
    "id": "E4E09",
@@ -3703,7 +3941,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When strong signals are present, the noise blanker's gating can chop them up. The result is IMD-like distortion and false signals."
   },
   {
    "id": "E4E10",
@@ -3718,7 +3957,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Arcing thermostat contacts, faulty doorbell transformers and failing neon or illuminated signs can all produce intermittent roaring or buzzing line noise. All the choices are correct."
   },
   {
    "id": "E4E11",
@@ -3733,7 +3973,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Corroded joints (the \"rusty bolt effect\") act as nonlinear diodes. They mix strong AM broadcast signals and reradiate the products on other frequencies."
   },
   {
    "id": "E4E12",
@@ -3748,7 +3989,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Switch-mode power supplies switch at a fixed rate and radiate harmonics. These appear as a series of carriers at regular intervals across a wide range."
   },
   {
    "id": "E4E13",
@@ -3763,7 +4005,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Bonding the surge protector at the single-point ground panel keeps every protected line at the same potential during a surge."
   },
   {
    "id": "E4E14",
@@ -3778,7 +4021,10 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "With everything bonded at one panel, all protectors reference the same point and fire together. That avoids potential differences between lines during a lightning strike.",
+   "explanationConfidence": "low",
+   "explanationNote": "Rationale follows the pool answer key; real-world purpose is more broadly equalizing potentials."
   },
   {
    "id": "E5A01",
@@ -3793,7 +4039,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At series resonance, XL and XC cancel and the current is limited only by R. The large current through each reactance produces voltages of Q times the applied voltage across L and across C."
   },
   {
    "id": "E5A02",
@@ -3808,7 +4055,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "f = 1/(2π√(LC)) = 1/(2π√(50×10⁻⁶ × 40×10⁻¹²)) = 1/(2π × 4.47×10⁻⁸) ≈ 3.56 MHz. R does not affect the resonant frequency."
   },
   {
    "id": "E5A03",
@@ -3823,7 +4071,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At resonance, XL = XC and they cancel, so a series RLC circuit's impedance is just R, its minimum."
   },
   {
    "id": "E5A04",
@@ -3838,7 +4087,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At parallel resonance the L and C branch currents cancel. The tank looks like an open circuit, so the impedance is set by the resistance: maximum and purely resistive."
   },
   {
    "id": "E5A05",
@@ -3853,7 +4103,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Bandwidth = f/Q, so raising the Q of a matching network narrows the range of frequencies over which it gives a good match."
   },
   {
    "id": "E5A06",
@@ -3868,7 +4119,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At resonance in a parallel LC tank, energy sloshes between L and C. The circulating current is at its maximum, about Q times the line current."
   },
   {
    "id": "E5A07",
@@ -3883,7 +4135,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A parallel RLC circuit's impedance is at its maximum at resonance, so the current drawn from the source is at its minimum."
   },
   {
    "id": "E5A08",
@@ -3898,7 +4151,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At series resonance the reactances cancel and the circuit is purely resistive, so voltage and current are in phase."
   },
   {
    "id": "E5A09",
@@ -3913,7 +4167,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "For a parallel resonant circuit, Q = R / X, where X is either XL or XC (they are equal at resonance). For a series circuit it is the inverse, X/R."
   },
   {
    "id": "E5A10",
@@ -3928,7 +4183,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "f = 1/(2π√(50×10⁻⁶ × 10×10⁻¹²)) = 1/(2π × 2.236×10⁻⁸) ≈ 7.12 MHz."
   },
   {
    "id": "E5A11",
@@ -3943,7 +4199,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "BW = f/Q = 7.1 MHz / 150 ≈ 47.3 kHz."
   },
   {
    "id": "E5A12",
@@ -3958,7 +4215,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "BW = f/Q = 3.7 MHz / 118 ≈ 31.4 kHz."
   },
   {
    "id": "E5A13",
@@ -3973,7 +4231,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The voltage across L and across C at series resonance is Q times the applied voltage. Higher Q means higher internal voltages, which matters for component ratings in tuners."
   },
   {
    "id": "E5B01",
@@ -3988,7 +4247,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "One time constant (τ = RC) is the time to charge to 63.2% (1 − e⁻¹) or discharge to 36.8% (e⁻¹)."
   },
   {
    "id": "E5B02",
@@ -4003,7 +4263,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Susceptance is B. Admittance is Y = G + jB, where G is conductance."
   },
   {
    "id": "E5B03",
@@ -4018,7 +4279,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Y = 1/Z. In polar form that is 1/|Z| at an angle of −θ: take the reciprocal of the magnitude and flip the sign of the angle."
   },
   {
    "id": "E5B04",
@@ -4033,7 +4295,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Two 1 MΩ resistors in parallel make 0.5 MΩ, and two 220 µF capacitors in parallel make 440 µF. τ = 0.5×10⁶ × 440×10⁻⁶ = 220 s."
   },
   {
    "id": "E5B05",
@@ -4048,7 +4311,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Susceptance B = 1/X, so the magnitude is replaced by its reciprocal. The sign convention also flips."
   },
   {
    "id": "E5B06",
@@ -4063,7 +4327,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Admittance Y = G + jB. Susceptance B is its imaginary part."
   },
   {
    "id": "E5B07",
@@ -4078,7 +4343,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net X = XL − XC = 250 − 500 = −250 Ω (capacitive). θ = arctan(250/1000) ≈ 14.0°. A capacitive circuit has the voltage lagging the current."
   },
   {
    "id": "E5B08",
@@ -4093,7 +4359,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net X = 100 − 300 = −200 Ω (capacitive). θ = arctan(200/100) ≈ 63.4°, with the voltage lagging the current."
   },
   {
    "id": "E5B09",
@@ -4108,7 +4375,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In a capacitor, current leads voltage by 90°, because i = C dv/dt. Mnemonic: ELI the ICE man, where in C, I comes before E."
   },
   {
    "id": "E5B10",
@@ -4123,7 +4391,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In an inductor, voltage leads current by 90°, because v = L di/dt (ELI)."
   },
   {
    "id": "E5B11",
@@ -4138,7 +4407,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net X = 75 − 25 = +50 Ω (inductive). θ = arctan(50/100) ≈ 26.6° ≈ 27°, with the voltage leading the current."
   },
   {
    "id": "E5B12",
@@ -4153,7 +4423,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Admittance Y = 1/Z, the reciprocal of impedance, measured in siemens."
   },
   {
    "id": "E5C01",
@@ -4168,7 +4439,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Rectangular form is R + jX. A pure capacitive reactance has R = 0 and a negative X, so it is 0 − j100."
   },
   {
    "id": "E5C02",
@@ -4183,7 +4455,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Polar form gives the magnitude |Z| and the phase angle θ."
   },
   {
    "id": "E5C03",
@@ -4198,7 +4471,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A pure inductance has Z = XL at an angle of +90°."
   },
   {
    "id": "E5C04",
@@ -4213,7 +4487,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Frequency-response plots usually use a logarithmic (dB) amplitude axis so they can show a wide dynamic range."
   },
   {
    "id": "E5C05",
@@ -4228,7 +4503,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A phasor diagram shows magnitudes and phase angles as vectors at a given frequency."
   },
   {
    "id": "E5C06",
@@ -4243,7 +4519,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In 50 − j25, the real part is 50 Ω of resistance and the −j part is 25 Ω of capacitive reactance in series."
   },
   {
    "id": "E5C07",
@@ -4258,7 +4535,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A pure resistance has no reactive (j) part, so it sits on the horizontal (real) axis."
   },
   {
    "id": "E5C08",
@@ -4273,7 +4551,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Polar coordinates show magnitude and phase angle directly."
   },
   {
    "id": "E5C09",
@@ -4288,7 +4567,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "On an impedance plot, the X (horizontal) axis is resistance R and the Y (vertical) axis is reactance: +j inductive, −j capacitive."
   },
   {
    "id": "E5C10",
@@ -4305,7 +4585,8 @@
    "refs": null,
    "figures": [
     "E5-1"
-   ]
+   ],
+   "explanation": "XC = 1/(2π × 14×10⁶ × 38×10⁻¹²) ≈ 299 Ω, so Z ≈ 400 − j300. Point 4 is at (400, −300)."
   },
   {
    "id": "E5C11",
@@ -4322,7 +4603,8 @@
    "refs": null,
    "figures": [
     "E5-1"
-   ]
+   ],
+   "explanation": "XL = 2π × 3.505×10⁶ × 18×10⁻⁶ ≈ 396 Ω, so Z ≈ 300 + j400. Point 3 is at (300, +400)."
   },
   {
    "id": "E5C12",
@@ -4339,7 +4621,8 @@
    "refs": null,
    "figures": [
     "E5-1"
-   ]
+   ],
+   "explanation": "XC = 1/(2π × 21.2×10⁶ × 19×10⁻¹²) ≈ 395 Ω, so Z ≈ 300 − j400. Point 1 is at (300, −400)."
   },
   {
    "id": "E5D01",
@@ -4354,7 +4637,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At RF, current crowds toward the conductor surface (skin depth ∝ 1/√f). The effective cross-section shrinks, so resistance rises with frequency."
   },
   {
    "id": "E5D02",
@@ -4369,7 +4653,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Every lead has inductance, about 1 nH per mm. At VHF and up, XL = 2πfL of even short leads becomes significant, so keep them short."
   },
   {
    "id": "E5D03",
@@ -4384,7 +4669,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Reactive power is the product of voltage and current that are 90° out of phase. Its average real power is zero."
   },
   {
    "id": "E5D04",
@@ -4399,7 +4685,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At microwave frequencies even a few millimetres of connection is a sizable fraction of a wavelength and adds phase shift. Short connections minimize it."
   },
   {
    "id": "E5D05",
@@ -4414,7 +4701,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Electrolytic capacitors have large parasitic inductance (ESL) from their rolled-foil construction, so they act like inductors at RF."
   },
   {
    "id": "E5D06",
@@ -4429,7 +4717,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Capacitance between turns, in parallel with the coil's inductance, forms a parallel resonant circuit at the self-resonant frequency."
   },
   {
    "id": "E5D07",
@@ -4444,7 +4733,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Self-resonance happens where the component's intended reactance cancels its parasitic reactance (for example a capacitor's C and its lead inductance)."
   },
   {
    "id": "E5D08",
@@ -4459,7 +4749,10 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The pool attributes RF loss in film capacitors mainly to skin effect in the thin metallized electrodes and leads.",
+   "explanationConfidence": "low",
+   "explanationNote": "Pool attributes film capacitor RF loss to skin effect; many references also cite dielectric loss. Explanation follows the key."
   },
   {
    "id": "E5D09",
@@ -4474,7 +4767,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ideal L and C store energy in magnetic and electric fields and give it back each cycle. No power is dissipated."
   },
   {
    "id": "E5D10",
@@ -4489,7 +4783,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A thicker conductor has more end capacitance and a lower velocity factor, so it is electrically longer. That is why fat dipoles are cut shorter."
   },
   {
    "id": "E5D11",
@@ -4504,7 +4799,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Only the resistor dissipates real power: P = I²R = 1² × 100 = 100 W. The reactance dissipates none."
   },
   {
    "id": "E5D12",
@@ -4519,7 +4815,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Reactive power (VAR) circulates between the source and the reactances without doing work. It is wattless power."
   },
   {
    "id": "E6A01",
@@ -4534,7 +4831,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "GaAs has much higher electron mobility than silicon, so GaAs devices (MESFETs, pHEMTs) are fast and low-noise at microwave frequencies."
   },
   {
    "id": "E6A02",
@@ -4549,7 +4847,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "N-type material is doped with donor atoms such as phosphorus or arsenic, which contribute excess free electrons."
   },
   {
    "id": "E6A03",
@@ -4564,7 +4863,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Reverse bias pulls holes and electrons away from the junction. The depletion region widens and contains no mobile carriers, so essentially no current flows apart from a tiny leakage current."
   },
   {
    "id": "E6A04",
@@ -4579,7 +4879,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Acceptor impurities (trivalent atoms such as boron) accept electrons and so create holes, making P-type material."
   },
   {
    "id": "E6A05",
@@ -4594,7 +4895,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A FET's gate is a reverse-biased junction (JFET) or insulated by oxide (MOSFET), so its DC input impedance is far higher than a BJT's forward-biased base-emitter junction."
   },
   {
    "id": "E6A06",
@@ -4609,7 +4911,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Beta (hFE) is the common-emitter current gain: β = ΔIc/ΔIb."
   },
   {
    "id": "E6A07",
@@ -4624,7 +4927,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A silicon base-emitter junction starts conducting at about 0.6–0.7 V. Seeing that VBE means the transistor is biased on."
   },
   {
    "id": "E6A08",
@@ -4639,7 +4943,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The alpha cutoff frequency is where the common-base current gain (α) falls to 0.707 (−3 dB) of its low-frequency value."
   },
   {
    "id": "E6A09",
@@ -4654,7 +4959,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A depletion-mode FET conducts with zero gate voltage. A gate voltage must be applied to deplete the channel and turn it off."
   },
   {
    "id": "E6A10",
@@ -4671,7 +4977,10 @@
    "refs": null,
    "figures": [
     "E6-1"
-   ]
+   ],
+   "explanation": "In Figure E6-1, symbols 4 and 5 have two gates (G1 and G2), so they are dual-gate MOSFETs. Symbol 4 is the N-channel version (arrow pointing in toward the channel).",
+   "explanationConfidence": "low",
+   "explanationNote": "Arrow-direction detail for symbol 4 described from convention; verify against figure."
   },
   {
    "id": "E6A11",
@@ -4688,7 +4997,10 @@
    "refs": null,
    "figures": [
     "E6-1"
-   ]
+   ],
+   "explanation": "Symbol 1 is a junction FET (the gate connects directly to the channel, with no insulating gap). Its gate arrow points away from the channel, which indicates P-channel.",
+   "explanationConfidence": "low",
+   "explanationNote": "Visual identification of symbol 1 (P-channel JFET) relies on the pool key."
   },
   {
    "id": "E6A12",
@@ -4703,7 +5015,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Back-to-back Zeners from gate to source clamp static or transient voltages that would otherwise puncture the thin gate oxide."
   },
   {
    "id": "E6B01",
@@ -4718,7 +5031,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In reverse breakdown, a Zener holds an almost constant voltage over a wide range of current, which makes it a voltage reference or regulator."
   },
   {
    "id": "E6B02",
@@ -4733,7 +5047,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Schottky (metal-semiconductor) diode drops about 0.2–0.4 V in the forward direction, compared with about 0.7 V for silicon PN. That means less loss and heat in a rectifier. It also switches quickly."
   },
   {
    "id": "E6B03",
@@ -4748,7 +5063,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An LED's forward voltage is set by its band gap. Wider band gaps give shorter-wavelength (bluer) light and a higher Vf."
   },
   {
    "id": "E6B04",
@@ -4763,7 +5079,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A varactor's depletion-region capacitance changes with reverse bias, so it is used as a voltage-controlled capacitor in VCOs and tuning circuits."
   },
   {
    "id": "E6B05",
@@ -4778,7 +5095,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The PIN diode's wide intrinsic layer gives very low junction capacitance when reverse biased, so it blocks RF well when off. Forward bias makes it a low-resistance path."
   },
   {
    "id": "E6B06",
@@ -4793,7 +5111,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Schottky diodes have low capacitance and little charge storage, so they are fast. They make good VHF/UHF mixers and detectors."
   },
   {
    "id": "E6B07",
@@ -4808,7 +5127,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Too much forward current overheats the junction, and the excessive junction temperature destroys the diode."
   },
   {
    "id": "E6B08",
@@ -4823,7 +5143,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Schottky barrier diode is formed by a metal-semiconductor junction."
   },
   {
    "id": "E6B09",
@@ -4838,7 +5159,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Point-contact diodes (such as the 1N34 germanium diode) have very low capacitance and are traditionally used as RF detectors."
   },
   {
    "id": "E6B10",
@@ -4855,7 +5177,8 @@
    "refs": null,
    "figures": [
     "E6-2"
-   ]
+   ],
+   "explanation": "In Figure E6-2, the Schottky diode symbol (6) has the cathode bar drawn with S-shaped hooks at its ends."
   },
   {
    "id": "E6B11",
@@ -4870,7 +5193,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A PIN diode's RF resistance is set by its forward DC bias current. More current means lower RF resistance, so the bias current controls the attenuation."
   },
   {
    "id": "E6C01",
@@ -4885,7 +5209,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Hysteresis gives a comparator separate switching thresholds for rising and falling inputs, so noise near the threshold cannot make the output chatter."
   },
   {
    "id": "E6C02",
@@ -4900,7 +5225,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A comparator's output switches state when the input crosses the reference (threshold) voltage."
   },
   {
    "id": "E6C03",
@@ -4915,7 +5241,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Tri-state outputs can be 0, 1 or high-impedance (off). That lets several devices share a bus."
   },
   {
    "id": "E6C04",
@@ -4930,7 +5257,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "BiCMOS combines a CMOS input (high input impedance, low power) with a bipolar output (low impedance, strong drive)."
   },
   {
    "id": "E6C05",
@@ -4945,7 +5273,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Static CMOS draws current almost only while switching, so it uses the least power of these families."
   },
   {
    "id": "E6C06",
@@ -4960,7 +5289,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The CMOS switching threshold is about half the supply voltage, so noise must swing roughly Vdd/2 to cause a false transition."
   },
   {
    "id": "E6C07",
@@ -4975,7 +5305,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A pull-up or pull-down resistor ties a line to the positive supply or ground, giving it a defined logic level when nothing is driving it (open circuit or open collector)."
   },
   {
    "id": "E6C08",
@@ -4992,7 +5323,8 @@
    "refs": null,
    "figures": [
     "E6-3"
-   ]
+   ],
+   "explanation": "In Figure E6-3, symbol 2 is an AND shape with an inversion bubble on the output, which is NAND."
   },
   {
    "id": "E6C09",
@@ -5007,7 +5339,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FPGA logic is described in a hardware description language such as VHDL or Verilog, then synthesized into the device configuration."
   },
   {
    "id": "E6C10",
@@ -5024,7 +5357,8 @@
    "refs": null,
    "figures": [
     "E6-3"
-   ]
+   ],
+   "explanation": "Symbol 4 is an OR shape with an output bubble, which is NOR."
   },
   {
    "id": "E6C11",
@@ -5041,7 +5375,8 @@
    "refs": null,
    "figures": [
     "E6-3"
-   ]
+   ],
+   "explanation": "Symbol 5 is a triangle buffer with an output bubble, an inverter (NOT)."
   },
   {
    "id": "E6D01",
@@ -5056,7 +5391,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Piezoelectric materials such as quartz produce a voltage when mechanically stressed, and deform when a voltage is applied."
   },
   {
    "id": "E6D02",
@@ -5071,7 +5407,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A crystal's motional arm (series R, L and C) is in parallel with the shunt capacitance C0 of the electrodes and holder. That is why a crystal has both series and parallel resonances."
   },
   {
    "id": "E6D03",
@@ -5086,7 +5423,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The converse piezoelectric effect is mechanical deformation when a voltage is applied."
   },
   {
    "id": "E6D04",
@@ -5101,7 +5439,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Laminations are insulated from each other, which breaks up the eddy-current paths in the core and reduces I²R heating."
   },
   {
    "id": "E6D05",
@@ -5116,7 +5455,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ferrite has much higher permeability than powdered iron. Since L ∝ μN², fewer turns are needed for the same inductance."
   },
   {
    "id": "E6D06",
@@ -5131,7 +5471,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Inductance is proportional to the core's permeability (μ), together with the number of turns and the geometry."
   },
   {
    "id": "E6D08",
@@ -5146,7 +5487,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Powdered iron has better temperature stability than ferrite. Brass and aluminum are not magnetic."
   },
   {
    "id": "E6D09",
@@ -5161,7 +5503,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ferrite beads on transistor leads add loss at VHF/UHF without affecting HF signals, which damps parasitic oscillations."
   },
   {
    "id": "E6D10",
@@ -5176,7 +5519,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A toroid keeps nearly all of its flux inside the closed core, so it radiates and picks up very little and couples less to nearby parts."
   },
   {
    "id": "E6D11",
@@ -5191,7 +5535,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Brass is non-magnetic and conductive. Eddy currents induced in a brass slug oppose the coil's field, which reduces inductance."
   },
   {
    "id": "E6D12",
@@ -5206,7 +5551,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Saturation happens when the flux density exceeds what the core can support. Permeability then collapses and the inductance drops."
   },
   {
    "id": "E6E01",
@@ -5221,7 +5567,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "GaAs's higher electron mobility gives faster transit times and lower noise at UHF and microwave frequencies."
   },
   {
    "id": "E6E02",
@@ -5236,7 +5583,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A DIP (dual in-line package) has pins that go through holes in the board. PLCC, BGA and SOT are surface-mount packages."
   },
   {
    "id": "E6E03",
@@ -5251,7 +5599,10 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Per the pool key, gallium nitride (GaN) supports the highest operating frequency among these MMIC materials, thanks to its high electron velocity and breakdown field.",
+   "explanationConfidence": "low",
+   "explanationNote": "GaN as highest-frequency MMIC material follows the pool key."
   },
   {
    "id": "E6E04",
@@ -5266,7 +5617,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Most MMICs are designed with 50 Ω input and output so they drop straight into standard RF systems."
   },
   {
    "id": "E6E05",
@@ -5281,7 +5633,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Good UHF low-noise preamps achieve noise figures well under 1 dB, for example 0.5 dB. Noise figure can't be negative, and dBm is a power unit."
   },
   {
    "id": "E6E06",
@@ -5296,7 +5649,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "MMICs offer predictable gain, low noise and a steady 50 Ω match across a wide band, so they make simple gain blocks."
   },
   {
    "id": "E6E07",
@@ -5311,7 +5665,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "MMICs are mounted on PCBs with microstrip lines of controlled impedance, usually 50 Ω."
   },
   {
    "id": "E6E08",
@@ -5326,7 +5681,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A common MMIC gets its bias through its output pin, fed via a resistor and/or RF choke from the supply."
   },
   {
    "id": "E6E09",
@@ -5341,7 +5697,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Surface-mount parts have little or no lead length, so their parasitic inductance and capacitance are much lower above HF."
   },
   {
    "id": "E6E10",
@@ -5356,7 +5713,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "SMT means a smaller layout, shorter traces and lower parasitics. All the choices are correct."
   },
   {
    "id": "E6E11",
@@ -5371,7 +5729,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DIP stands for dual in-line package: two parallel rows of pins on opposite sides."
   },
   {
    "id": "E6E12",
@@ -5386,7 +5745,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DIP leads and their board traces are long enough to add significant inductance and capacitance at UHF."
   },
   {
    "id": "E6F01",
@@ -5401,7 +5761,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Photon energy is absorbed by electrons in the semiconductor, freeing them to carry current."
   },
   {
    "id": "E6F02",
@@ -5416,7 +5777,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Light creates extra charge carriers in a photoconductor, so its resistance drops."
   },
   {
    "id": "E6F03",
@@ -5431,7 +5793,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A typical optocoupler is an LED shining on a phototransistor inside a light-tight package."
   },
   {
    "id": "E6F04",
@@ -5446,7 +5809,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The photovoltaic effect converts light directly into electrical energy."
   },
   {
    "id": "E6F05",
@@ -5461,7 +5825,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An optical shaft encoder senses rotation with a slotted or patterned wheel that interrupts a light beam, producing pulses."
   },
   {
    "id": "E6F06",
@@ -5476,7 +5841,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Photoconductive devices are usually made from crystalline semiconductors such as CdS or silicon."
   },
   {
    "id": "E6F07",
@@ -5491,7 +5857,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A solid-state relay uses semiconductors (an optocoupler plus a triac or MOSFET) to do a relay's switching job with no moving parts."
   },
   {
    "id": "E6F08",
@@ -5506,7 +5873,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An optoisolator couples the control signal only by light, giving galvanic isolation between low-voltage logic and the 120 VAC circuit."
   },
   {
    "id": "E6F09",
@@ -5521,7 +5889,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PV efficiency is the fraction of incident light energy converted into electrical output."
   },
   {
    "id": "E6F10",
@@ -5536,7 +5905,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Most power-generating solar cells are crystalline or polycrystalline silicon."
   },
   {
    "id": "E6F11",
@@ -5551,7 +5921,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A fully lit silicon PV cell produces about 0.5 V (≈0.5–0.6 V) open circuit, so panels connect many cells in series."
   },
   {
    "id": "E7A01",
@@ -5566,7 +5937,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A flip-flop has two stable states and stays in either one until it is triggered, so it is bistable."
   },
   {
    "id": "E7A02",
@@ -5581,7 +5953,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A decade counter counts 10 input pulses and then produces one output pulse (carry) and resets, dividing by 10."
   },
   {
    "id": "E7A03",
@@ -5596,7 +5969,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A toggle (T or J-K) flip-flop changes state on each clock edge, so its output runs at half the input frequency."
   },
   {
    "id": "E7A04",
@@ -5611,7 +5985,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Each flip-flop divides by 2, and 2⁴ = 16, so 4 flip-flops are needed."
   },
   {
    "id": "E7A05",
@@ -5626,7 +6001,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An astable multivibrator has no stable state. It free-runs, flipping between two states to make a square wave."
   },
   {
    "id": "E7A06",
@@ -5641,7 +6017,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A monostable (one-shot) multivibrator flips to its unstable state when triggered and returns after a time set by an RC network."
   },
   {
    "id": "E7A07",
@@ -5656,7 +6033,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "NAND is AND followed by NOT. The output is 0 only when all inputs are 1."
   },
   {
    "id": "E7A08",
@@ -5671,7 +6049,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "OR outputs 1 if any input is 1, and 0 only if all inputs are 0."
   },
   {
    "id": "E7A09",
@@ -5686,7 +6065,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "XNOR is the complement of XOR. The output is 1 when the inputs are equal and 0 when exactly one input is 1."
   },
   {
    "id": "E7A10",
@@ -5701,7 +6081,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A truth table lists every input combination for a digital device and the output it produces."
   },
   {
    "id": "E7A11",
@@ -5716,7 +6097,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In positive logic, the higher voltage is logic 1 and the lower voltage is logic 0."
   },
   {
    "id": "E7B01",
@@ -5731,7 +6113,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Class AB biases each device slightly on, so it conducts for more than half the cycle (over 180°) but less than the full 360°. This reduces crossover distortion compared with Class B."
   },
   {
    "id": "E7B02",
@@ -5746,7 +6129,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Class D amplifier switches its devices fully on or off (PWM or other switching), so efficiency is very high, often above 90%."
   },
   {
    "id": "E7B03",
@@ -5761,7 +6145,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A switching amplifier's output is rich in harmonics, so a low-pass or band-pass filter is needed to remove them before the antenna."
   },
   {
    "id": "E7B04",
@@ -5776,7 +6161,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Class A amplifier is biased midway between cutoff and saturation, so the whole signal swing stays in the linear region."
   },
   {
    "id": "E7B05",
@@ -5791,7 +6177,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Parasitic suppressors damp VHF parasitics, and neutralization cancels the feedback through the device's internal capacitance. Both prevent self-oscillation."
   },
   {
    "id": "E7B06",
@@ -5806,7 +6193,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In a grounded-grid amplifier the drive goes into the cathode, which gives a low input impedance, around 50–100 Ω for many tubes. That makes it easy to drive directly from a transceiver."
   },
   {
    "id": "E7B07",
@@ -5821,7 +6209,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Class C is highly nonlinear. It distorts SSB's varying-amplitude envelope, producing splatter and excessive bandwidth."
   },
   {
    "id": "E7B08",
@@ -5836,7 +6225,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When fully on, a switch has nearly zero voltage across it, and when off it carries almost no current. Either way P = V × I is small, so little power is lost."
   },
   {
    "id": "E7B09",
@@ -5851,7 +6241,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An emitter follower has a voltage gain of about 1, no phase inversion (output in phase with input), high input impedance and low output impedance."
   },
   {
    "id": "E7B10",
@@ -5868,7 +6259,8 @@
    "refs": null,
    "figures": [
     "E7-1"
-   ]
+   ],
+   "explanation": "In Figure E7-1, R1 and R2 form a voltage divider from the supply that sets the base bias voltage."
   },
   {
    "id": "E7B11",
@@ -5885,7 +6277,10 @@
    "refs": null,
    "figures": [
     "E7-1"
-   ]
+   ],
+   "explanation": "R3, the emitter resistor, gives self-bias and stabilization through negative feedback. If emitter current rises, the emitter voltage rises and VBE falls.",
+   "explanationConfidence": "low",
+   "explanationNote": "Pool calls R3 'self bias'; explanation describes emitter degeneration."
   },
   {
    "id": "E7B12",
@@ -5902,7 +6297,8 @@
    "refs": null,
    "figures": [
     "E7-1"
-   ]
+   ],
+   "explanation": "In Figure E7-1 the input goes to the base and the output is taken from the collector. The emitter is common (it goes to ground through R3 and is bypassed by C3), so this is a common-emitter amplifier."
   },
   {
    "id": "E7C01",
@@ -5917,7 +6313,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A low-pass pi network has shunt capacitors at the input and output with a series inductor between them, which passes low frequencies and shunts high ones to ground."
   },
   {
    "id": "E7C02",
@@ -5932,7 +6329,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Series capacitors pass high frequencies, and a shunt inductor sends low frequencies to ground, so the network is high-pass."
   },
   {
    "id": "E7C03",
@@ -5947,7 +6345,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Adding an output series inductor to a pi network (Pi-L) adds another low-pass section, which improves harmonic suppression."
   },
   {
    "id": "E7C04",
@@ -5962,7 +6361,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A matching network adds equal and opposite reactance to cancel the load's reactive part, and transforms the resistive part to the desired value (for example 50 Ω)."
   },
   {
    "id": "E7C05",
@@ -5977,7 +6377,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Chebyshev filter accepts ripple in the passband in exchange for a steeper transition than a Butterworth filter."
   },
   {
    "id": "E7C06",
@@ -5992,7 +6393,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Elliptic (Cauer) filters place zeros (notches) in the stopband, giving the sharpest cutoff, with ripple in both the passband and the stopband."
   },
   {
    "id": "E7C07",
@@ -6007,7 +6409,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Pi-L network is a pi network followed by a series inductor at the output."
   },
   {
    "id": "E7C08",
@@ -6022,7 +6425,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Helical resonator filters are compact, high-Q band-pass and notch filters widely used in VHF/UHF radios."
   },
   {
    "id": "E7C09",
@@ -6037,7 +6441,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A crystal lattice filter uses several quartz crystals for a narrow, steep-sided passband. It is used as an IF filter for low-level signals."
   },
   {
    "id": "E7C10",
@@ -6052,7 +6457,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Repeater duplexers use high-Q cavity resonators to separate the transmit and receive frequencies, which are only 600 kHz apart on 2 m."
   },
   {
    "id": "E7C11",
@@ -6067,7 +6473,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Shape factor is the ratio of the bandwidth at high attenuation (for example −60 dB) to the bandwidth at −6 dB. A lower value means steeper skirts and better adjacent-channel rejection."
   },
   {
    "id": "E7D01",
@@ -6082,7 +6489,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A linear regulator continuously varies how hard its pass element conducts, so it drops whatever voltage is needed to hold the output constant."
   },
   {
    "id": "E7D02",
@@ -6097,7 +6505,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A switching regulator varies the duty cycle of pulses fed into an LC filter. The average output voltage is set by the duty cycle."
   },
   {
    "id": "E7D03",
@@ -6112,7 +6521,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Zener diode in reverse breakdown holds a stable voltage and serves as a reference."
   },
   {
    "id": "E7D04",
@@ -6127,7 +6537,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Three-terminal regulators such as the 78xx and LM317 are series regulators: a pass transistor sits in series with the load."
   },
   {
    "id": "E7D05",
@@ -6142,7 +6553,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A shunt regulator sits across the output and draws more or less current to load the source, which holds the voltage constant."
   },
   {
    "id": "E7D06",
@@ -6159,7 +6571,8 @@
    "refs": null,
    "figures": [
     "E7-2"
-   ]
+   ],
+   "explanation": "In Figure E7-2, Q1 is the series pass transistor. Its base is held at the Zener voltage, so it adjusts its conduction to keep the output at about Vz − 0.7 V."
   },
   {
    "id": "E7D07",
@@ -6176,7 +6589,8 @@
    "refs": null,
    "figures": [
     "E7-2"
-   ]
+   ],
+   "explanation": "C2 is across Zener D1. It bypasses ripple and noise around the Zener, keeping the base reference clean."
   },
   {
    "id": "E7D08",
@@ -6193,7 +6607,8 @@
    "refs": null,
    "figures": [
     "E7-2"
-   ]
+   ],
+   "explanation": "Figure E7-2 is a Zener-referenced series pass transistor regulator, which is a linear regulator."
   },
   {
    "id": "E7D09",
@@ -6208,7 +6623,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Operating time (hours) = capacity (Ah) ÷ average current (A). For example, 20 Ah at 4 A gives 5 h."
   },
   {
    "id": "E7D10",
@@ -6223,7 +6639,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Switchers convert at tens or hundreds of kHz, and transformer and filter size shrink as frequency rises. That makes the magnetics and capacitors much smaller, lighter and cheaper."
   },
   {
    "id": "E7D11",
@@ -6238,7 +6655,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A solar panel produces DC. An inverter converts it to AC for AC loads or the grid."
   },
   {
    "id": "E7D12",
@@ -6253,7 +6671,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Dropout voltage is the minimum input-to-output difference a linear regulator needs in order to keep regulating."
   },
   {
    "id": "E7D13",
@@ -6268,7 +6687,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The pass element drops (Vin − Vout) while carrying the load current, so P = (Vin − Vout) × Iout."
   },
   {
    "id": "E7D14",
@@ -6283,7 +6703,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Equalizing resistors balance the voltage across series capacitors, bleed them down after power-off, and provide a minimum load. All the choices are correct."
   },
   {
    "id": "E7D15",
@@ -6298,7 +6719,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A step-start circuit limits the inrush current at turn-on (with a series resistor that is later shorted out), so the filter capacitors charge gradually."
   },
   {
    "id": "E7E01",
@@ -6313,7 +6735,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FM can be produced by applying audio to a reactance modulator on the oscillator, which varies its frequency."
   },
   {
    "id": "E7E02",
@@ -6328,7 +6751,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A reactance modulator uses a variable reactance, typically a varactor's capacitance, to shift the oscillator's frequency or phase."
   },
   {
    "id": "E7E03",
@@ -6343,7 +6767,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A frequency discriminator converts frequency deviation into an amplitude (audio) output. It is an FM detector."
   },
   {
    "id": "E7E04",
@@ -6358,7 +6783,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A balanced modulator produces DSB with the carrier suppressed. A sideband filter then removes the unwanted sideband."
   },
   {
    "id": "E7E05",
@@ -6373,7 +6799,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Pre-emphasis boosts the higher audio frequencies before FM modulation to improve SNR. The receiver's de-emphasis undoes it."
   },
   {
    "id": "E7E06",
@@ -6388,7 +6815,10 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Phase modulation inherently emphasizes higher audio frequencies, and FM transmitters add pre-emphasis to match. Receiver de-emphasis restores a flat response from such transmitters.",
+   "explanationConfidence": "low",
+   "explanationNote": "Explanation follows pool key wording; de-emphasis primarily complements transmitter pre-emphasis."
   },
   {
    "id": "E7E07",
@@ -6403,7 +6833,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Baseband is the frequency range of the original message (such as audio) before it modulates a carrier."
   },
   {
    "id": "E7E08",
@@ -6418,7 +6849,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An ideal mixer outputs f1 + f2 and |f1 − f2|. Real mixers also pass the original input frequencies."
   },
   {
    "id": "E7E09",
@@ -6433,7 +6865,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Overdriving a mixer pushes it into strongly nonlinear operation, generating spurious higher-order mixing products."
   },
   {
    "id": "E7E10",
@@ -6448,7 +6881,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An envelope detector rectifies the RF with a diode and filters it with an RC network, recovering the AM envelope."
   },
   {
    "id": "E7E11",
@@ -6463,7 +6897,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A product detector mixes SSB with a locally generated BFO or carrier to recover the audio."
   },
   {
    "id": "E7F01",
@@ -6478,7 +6913,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A direct-sampling SDR feeds the RF, after filtering and possibly amplification, straight into a fast ADC. There is no analog mixing with a local oscillator. Tuning and demodulation are done digitally."
   },
   {
    "id": "E7F02",
@@ -6493,7 +6929,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An adaptive filter continuously adjusts its coefficients to separate the correlated speech from uncorrelated noise. This is how DSP noise reduction works."
   },
   {
    "id": "E7F03",
@@ -6508,7 +6945,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Hilbert transform filter shifts all frequencies by 90°, producing the quadrature (Q) signal used in the phasing method of SSB generation."
   },
   {
    "id": "E7F04",
@@ -6523,7 +6961,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DSP SSB uses the phasing method. I and Q versions of the audio and the carrier are combined in quadrature so that one sideband cancels."
   },
   {
    "id": "E7F05",
@@ -6538,7 +6977,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "By the Nyquist theorem, the sample rate must be at least twice the highest frequency in the signal."
   },
   {
    "id": "E7F06",
@@ -6553,7 +6993,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "1 V / 1 mV = 1000 levels. 2⁹ = 512 is too few and 2¹⁰ = 1024 is enough, so 10 bits are needed."
   },
   {
    "id": "E7F07",
@@ -6568,7 +7009,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The FFT is an efficient algorithm for the discrete Fourier transform. It converts time-domain samples into frequency-domain (spectrum) data."
   },
   {
    "id": "E7F08",
@@ -6583,7 +7025,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Decimation lowers the sample rate by keeping only every Nth sample, after filtering."
   },
   {
    "id": "E7F09",
@@ -6598,7 +7041,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "After decimation the Nyquist frequency is lower. Content above the new limit would alias down to false low frequencies, so it must be filtered out first."
   },
   {
    "id": "E7F10",
@@ -6613,7 +7057,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Nyquist limits the usable bandwidth to half the sample rate. For example, a 122.88 MS/s ADC covers about 61 MHz."
   },
   {
    "id": "E7F11",
@@ -6628,7 +7073,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The smallest step an ADC can resolve, one LSB = Vref / 2^bits, sets the minimum detectable signal when no other noise is present."
   },
   {
    "id": "E7F12",
@@ -6643,7 +7089,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Symmetric FIR filters can have linear phase, which means a constant group delay: every frequency component is delayed by the same amount."
   },
   {
    "id": "E7F13",
@@ -6658,7 +7105,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Taps are the delayed sample points in the filter's delay line. Each one is multiplied by a coefficient and summed."
   },
   {
    "id": "E7F14",
@@ -6673,7 +7121,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "More taps give a longer impulse response, which allows a sharper (steeper) frequency response."
   },
   {
    "id": "E7G01",
@@ -6688,7 +7137,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An op-amp's output stage has a very low output impedance, ideally zero."
   },
   {
    "id": "E7G02",
@@ -6703,7 +7153,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A capacitor across RF lowers the feedback impedance as frequency rises, so the gain falls at high frequencies: a low-pass response."
   },
   {
    "id": "E7G03",
@@ -6718,7 +7169,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Op-amp inputs (especially FET inputs) have a very high impedance, ideally infinite."
   },
   {
    "id": "E7G04",
@@ -6733,7 +7185,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Input offset voltage is the small differential input voltage needed to bring the open-loop output to zero. It comes from mismatches inside the op-amp."
   },
   {
    "id": "E7G05",
@@ -6748,7 +7201,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "High gain and high Q make active filters ring and tend to oscillate. Keeping both moderate keeps the filter stable."
   },
   {
    "id": "E7G06",
@@ -6763,7 +7217,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Gain-bandwidth is the frequency at which the open-loop gain falls to 1 (unity). For a single-pole op-amp, gain × bandwidth is constant."
   },
   {
    "id": "E7G07",
@@ -6778,7 +7233,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "For an inverting amplifier, |Av| = RF/R1 = 470/10 = 47."
   },
   {
    "id": "E7G08",
@@ -6793,7 +7249,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An ideal op-amp has infinite gain at every frequency. Real op-amps roll off."
   },
   {
    "id": "E7G09",
@@ -6810,7 +7267,8 @@
    "refs": null,
    "figures": [
     "E7-3"
-   ]
+   ],
+   "explanation": "Vout = −(RF/R1) × Vin = −(10,000/1,000) × 0.23 = −2.3 V. The inverting configuration flips the sign."
   },
   {
    "id": "E7G10",
@@ -6827,7 +7285,8 @@
    "refs": null,
    "figures": [
     "E7-3"
-   ]
+   ],
+   "explanation": "|Av| = RF/R1 = 68,000/1,800 ≈ 37.8 ≈ 38."
   },
   {
    "id": "E7G11",
@@ -6844,7 +7303,8 @@
    "refs": null,
    "figures": [
     "E7-3"
-   ]
+   ],
+   "explanation": "|Av| = RF/R1 = 47,000/3,300 ≈ 14.2 ≈ 14."
   },
   {
    "id": "E7G12",
@@ -6859,7 +7319,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An op-amp is a high-gain, DC-coupled differential amplifier with very high input impedance and very low output impedance. Its circuit behavior is set by external feedback."
   },
   {
    "id": "E7H01",
@@ -6874,7 +7335,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Colpitts (capacitive divider feedback), Hartley (tapped coil) and Pierce (crystal) are the classic oscillator circuits."
   },
   {
    "id": "E7H02",
@@ -6889,7 +7351,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Microphonics are frequency shifts caused by mechanical vibration changing the component spacing or values in an oscillator."
   },
   {
    "id": "E7H03",
@@ -6904,7 +7367,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A PLL compares the VCO, divided down, with a stable reference in a phase detector. The low-pass filtered error voltage steers the VCO into lock."
   },
   {
    "id": "E7H04",
@@ -6919,7 +7383,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Colpitts oscillator takes its feedback from a capacitive voltage divider across the tank."
   },
   {
    "id": "E7H05",
@@ -6934,7 +7399,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In a Pierce oscillator the quartz crystal itself provides the feedback path between output and input."
   },
   {
    "id": "E7H06",
@@ -6949,7 +7415,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PLLs synthesize frequencies (VCO plus divider) and can demodulate FM, since the VCO control voltage tracks the input frequency."
   },
   {
    "id": "E7H07",
@@ -6964,7 +7431,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Mechanically isolating or shock-mounting the oscillator keeps vibration from reaching frequency-determining parts."
   },
   {
    "id": "E7H08",
@@ -6979,7 +7447,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "NP0 (C0G) capacitors have an almost zero temperature coefficient, which minimizes thermal drift."
   },
   {
    "id": "E7H09",
@@ -6994,7 +7463,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A DDS uses a phase accumulator to index a waveform lookup table, a DAC to produce analog samples, and a low-pass filter to remove images."
   },
   {
    "id": "E7H10",
@@ -7009,7 +7479,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The DDS lookup table holds amplitude samples of the waveform (usually a sine) for each phase value."
   },
   {
    "id": "E7H11",
@@ -7024,7 +7495,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "DDS output contains discrete spurs from phase truncation, DAC nonlinearity and quantization, rather than broadband noise."
   },
   {
    "id": "E7H12",
@@ -7039,7 +7511,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Parallel-resonant crystals are calibrated for a specific load (parallel) capacitance. Providing that capacitance puts the oscillator on the marked frequency."
   },
   {
    "id": "E7H13",
@@ -7054,7 +7527,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "GPS-disciplined oscillators, rubidium standards and temperature-controlled high-Q dielectric resonators are all used for stable microwave references. All the choices are correct."
   },
   {
    "id": "E8A01",
@@ -7069,7 +7543,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Fourier analysis breaks a periodic waveform into sine components. An ideal square wave is the fundamental plus odd harmonics with amplitudes falling as 1/n."
   },
   {
    "id": "E8A02",
@@ -7084,7 +7559,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A successive-approximation ADC uses a DAC and a comparator to binary-search for the input value, one bit at a time."
   },
   {
    "id": "E8A03",
@@ -7099,7 +7575,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A time-domain description shows amplitude versus time, as an oscilloscope does."
   },
   {
    "id": "E8A04",
@@ -7114,7 +7591,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Dither is a small amount of added noise. It randomizes quantization error so the ADC's spurs and distortion are spread out and become less noticeable."
   },
   {
    "id": "E8A05",
@@ -7129,7 +7607,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A true-RMS meter computes the actual RMS value of any waveform. Averaging meters are calibrated only for sine waves."
   },
   {
    "id": "E8A06",
@@ -7144,7 +7623,10 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Unprocessed speech has a high crest factor, so its PEP is roughly 2.5 times the average power.",
+   "explanationConfidence": "low",
+   "explanationNote": "2.5:1 is the pool value; real speech varies widely."
   },
   {
    "id": "E8A07",
@@ -7159,7 +7641,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Without speech processing, the peak-to-average ratio depends on the characteristics of the speaker's voice."
   },
   {
    "id": "E8A08",
@@ -7174,7 +7657,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Flash ADCs convert in a single step and are extremely fast, so they can digitize RF directly at high frequencies."
   },
   {
    "id": "E8A09",
@@ -7189,7 +7673,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An 8-bit converter has 2⁸ = 256 output codes, so it can encode 256 distinct levels."
   },
   {
    "id": "E8A10",
@@ -7204,7 +7689,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A DAC's stepped output contains images and sampling artifacts around multiples of the sample rate. A low-pass (reconstruction) filter smooths them out."
   },
   {
    "id": "E8A11",
@@ -7219,7 +7705,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ADC quality is described by linearity and distortion figures such as THD (along with SINAD and ENOB)."
   },
   {
    "id": "E8B01",
@@ -7234,7 +7721,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FM modulation index m = peak deviation ÷ modulating frequency, so it changes as the audio frequency changes."
   },
   {
    "id": "E8B02",
@@ -7249,7 +7737,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In PM, the modulation index is the peak phase deviation, which depends only on the modulating signal and not on the carrier frequency."
   },
   {
    "id": "E8B03",
@@ -7264,7 +7753,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "m = Δf / fm = 3000 / 1000 = 3."
   },
   {
    "id": "E8B04",
@@ -7279,7 +7769,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "m = 6 kHz / 2 kHz = 3."
   },
   {
    "id": "E8B05",
@@ -7294,7 +7785,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Deviation ratio = max deviation ÷ max modulating frequency = 5 / 3 ≈ 1.67."
   },
   {
    "id": "E8B06",
@@ -7309,7 +7801,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "D = 7.5 / 3.5 ≈ 2.14."
   },
   {
    "id": "E8B07",
@@ -7324,7 +7817,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "OFDM is used by amateur digital modes (for example VARA, DRM digital voice and SSTV, and Wi-Fi-based mesh)."
   },
   {
    "id": "E8B08",
@@ -7339,7 +7833,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "OFDM sends data on many closely spaced, mathematically orthogonal subcarriers. Each one runs at a low symbol rate, which resists intersymbol interference from multipath."
   },
   {
    "id": "E8B09",
@@ -7354,7 +7849,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Deviation ratio = maximum carrier deviation ÷ highest audio modulating frequency. It is the system-level counterpart of the modulation index."
   },
   {
    "id": "E8B10",
@@ -7369,7 +7865,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FDM divides the channel into separate frequency sub-bands, each carrying its own data stream."
   },
   {
    "id": "E8B11",
@@ -7384,7 +7881,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "TDM gives each signal its own recurring time slot on a shared channel. DMR's two time slots are an example."
   },
   {
    "id": "E8C01",
@@ -7399,7 +7897,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "QAM amplitude-modulates two carriers of the same frequency in quadrature (90° apart, I and Q). Together they set both amplitude and phase."
   },
   {
    "id": "E8C02",
@@ -7414,7 +7913,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Symbol rate (baud) is how many times per second the waveform changes state to carry information. Each symbol may carry several bits."
   },
   {
    "id": "E8C03",
@@ -7429,7 +7929,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Shifting phase when the RF is at zero amplitude avoids abrupt amplitude jumps, which keeps the spectrum narrow."
   },
   {
    "id": "E8C04",
@@ -7444,7 +7945,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "PSK31 shapes its pulses with a raised-cosine (sinusoidal) envelope, so the amplitude falls to zero smoothly at phase reversals. That keeps the bandwidth to about 31 Hz."
   },
   {
    "id": "E8C05",
@@ -7459,7 +7961,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "CW bandwidth ≈ WPM × 4 Hz, so 13 × 4 = 52 Hz. This follows from a dot rate of WPM/1.2 Hz with a shaping factor."
   },
   {
    "id": "E8C06",
@@ -7474,7 +7977,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FT8 uses 8 tones spaced 6.25 Hz apart, about 50 Hz in total."
   },
   {
    "id": "E8C07",
@@ -7489,7 +7993,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "FSK bandwidth ≈ (K × shift) + baud = (1.2 × 4800) + 9600 = 5760 + 9600 = 15,360 Hz = 15.36 kHz."
   },
   {
    "id": "E8C08",
@@ -7504,7 +8009,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ARQ (automatic repeat request) detects errors and asks the sender to retransmit the bad block."
   },
   {
    "id": "E8C09",
@@ -7519,7 +8025,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Gray code changes only one bit between successive values, which avoids glitches in encoders and constellation mapping."
   },
   {
    "id": "E8C10",
@@ -7534,7 +8041,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A more efficient code or modulation that carries more bits per symbol raises throughput without widening the signal."
   },
   {
    "id": "E8C11",
@@ -7549,7 +8057,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Baud is the symbol rate. The two terms mean the same thing."
   },
   {
    "id": "E8C12",
@@ -7564,7 +8073,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Faster keying and sharper rise and fall times both widen a CW signal's spectrum."
   },
   {
    "id": "E8C13",
@@ -7579,7 +8089,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A constellation diagram plots each allowed symbol as a point in the I/Q plane, showing every possible amplitude-and-phase state."
   },
   {
    "id": "E8C14",
@@ -7594,7 +8105,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Mesh nodes (for example AREDN) are addressed with IP addresses and route standard IP traffic."
   },
   {
    "id": "E8C15",
@@ -7609,7 +8121,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Mesh nodes find their neighbors with discovery protocols and set up routes automatically (for example OLSR or Babel)."
   },
   {
    "id": "E8D01",
@@ -7624,7 +8137,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The receiver despreads using the same code or hop pattern. Signals that don't match the code stay spread out and are suppressed."
   },
   {
    "id": "E8D02",
@@ -7639,7 +8153,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Direct-sequence spread spectrum uses a fast pseudorandom chip stream to phase-modulate (shift) the carrier, spreading it over a wide band."
   },
   {
    "id": "E8D03",
@@ -7654,7 +8169,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Frequency hopping moves the carrier quickly among many frequencies in a pseudorandom sequence that the receiver follows."
   },
   {
    "id": "E8D04",
@@ -7669,7 +8185,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Abrupt keying edges create wide sidebands, heard as key clicks on nearby frequencies."
   },
   {
    "id": "E8D05",
@@ -7684,7 +8201,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Slower rise and fall times (about 5 ms, shaped) narrow the spectrum and eliminate key clicks."
   },
   {
    "id": "E8D06",
@@ -7699,7 +8217,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A parity bit makes the count of 1s even or odd, so a single-bit (odd-number) error can be detected. It cannot be corrected."
   },
   {
    "id": "E8D07",
@@ -7714,7 +8233,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Driving the transmitter's audio input too hard overmodulates AFSK, causing ALC action and distortion."
   },
   {
    "id": "E8D08",
@@ -7729,7 +8249,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Excessive audio drive shows up as IMD, which PSK software measures on an idling signal."
   },
   {
    "id": "E8D09",
@@ -7744,7 +8265,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A clean PSK31 signal shows IMD of −30 dB or better. Higher values mean overdrive and splatter."
   },
   {
    "id": "E8D10",
@@ -7759,7 +8281,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Baudot (ITA2) uses 5 bits and needs LTRS/FIGS shift codes. ASCII uses 7 bits (8 with parity or extended) and needs no shift codes."
   },
   {
    "id": "E8D11",
@@ -7774,7 +8297,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ASCII has separate codes for uppercase and lowercase letters. Baudot is uppercase only."
   },
   {
    "id": "E9A01",
@@ -7789,7 +8313,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An isotropic radiator is a theoretical lossless point source radiating equally in all directions. It is the 0 dBi reference for antenna gain."
   },
   {
    "id": "E9A02",
@@ -7804,7 +8329,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net gain = 7 − 2 − 2.2 = +2.8 dB. ERP = 150 W × 10^(2.8/10) ≈ 150 × 1.905 ≈ 286 W. ERP is referenced to a dipole, which suits a dBd antenna gain."
   },
   {
    "id": "E9A03",
@@ -7819,7 +8345,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "ERP is transmitter power with all system gains and losses applied (feed line, duplexer, antenna gain), referenced to a dipole."
   },
   {
    "id": "E9A04",
@@ -7834,7 +8361,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Antenna height changes how the ground reflection couples back to the antenna, which changes its feed-point impedance. Feed line length and tuner settings don't change the antenna's own impedance."
   },
   {
    "id": "E9A05",
@@ -7849,7 +8377,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Ground gain is the extra signal strength at some elevation angles when the direct wave and the ground-reflected wave add in phase."
   },
   {
    "id": "E9A06",
@@ -7864,7 +8393,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net = 10 − 4 − 3.2 − 0.8 = +2 dB. ERP = 200 × 10^0.2 ≈ 200 × 1.585 ≈ 317 W."
   },
   {
    "id": "E9A07",
@@ -7879,7 +8409,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Net = 7 − 2 − 2.8 − 1.2 = +1 dB. EIRP = 200 × 10^0.1 ≈ 200 × 1.259 ≈ 252 W. EIRP is the right term because the antenna gain is in dBi."
   },
   {
    "id": "E9A08",
@@ -7894,7 +8425,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The Fresnel zone radius scales with √λ, so the highest frequency (5.8 GHz, shortest wavelength) has the smallest first Fresnel zone."
   },
   {
    "id": "E9A09",
@@ -7909,7 +8441,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Efficiency = Rrad / (Rrad + Rloss), the fraction of input power actually radiated."
   },
   {
    "id": "E9A10",
@@ -7924,7 +8457,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Radials give the return current a low-loss path. Otherwise it flows through lossy soil, so radials greatly improve a ground-mounted vertical's efficiency."
   },
   {
    "id": "E9A11",
@@ -7939,7 +8473,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The return current of a ground-mounted vertical flows through the soil, so soil conductivity sets the ground losses (unless an extensive radial field is used)."
   },
   {
    "id": "E9A12",
@@ -7954,7 +8489,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A dipole has 2.15 dBi of gain, so 6 dBi − 2.15 = 3.85 dBd."
   },
   {
    "id": "E9B01",
@@ -7971,7 +8507,10 @@
    "refs": null,
    "figures": [
     "E9-1"
-   ]
+   ],
+   "explanation": "In Figure E9-1 the main lobe drops 3 dB at about ±25° from its peak at 0°, so the half-power beamwidth is about 50°.",
+   "explanationConfidence": "low",
+   "explanationNote": "Figure reading per pool key."
   },
   {
    "id": "E9B02",
@@ -7988,7 +8527,10 @@
    "refs": null,
    "figures": [
     "E9-1"
-   ]
+   ],
+   "explanation": "The main lobe peaks at 0 dB. The rear lobe at 180° reaches about −18 dB, so the front-to-back ratio is about 18 dB.",
+   "explanationConfidence": "low",
+   "explanationNote": "Figure reading per pool key."
   },
   {
    "id": "E9B03",
@@ -8005,7 +8547,10 @@
    "refs": null,
    "figures": [
     "E9-1"
-   ]
+   ],
+   "explanation": "The response toward the sides (±90°) is about −14 dB, so the front-to-side ratio is about 14 dB.",
+   "explanationConfidence": "low",
+   "explanationNote": "Figure reading per pool key."
   },
   {
    "id": "E9B04",
@@ -8020,7 +8565,10 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In Figure E9-2 the main lobe is the 0 dB reference. The response toward the rear (low angles toward 180°) is about −28 dB, so F/B ≈ 28 dB.",
+   "explanationConfidence": "low",
+   "explanationNote": "Figure reading per pool key; note the question text references Figure E9-2 (written 'E92' in the pool)."
   },
   {
    "id": "E9B05",
@@ -8037,7 +8585,8 @@
    "refs": null,
    "figures": [
     "E9-2"
-   ]
+   ],
+   "explanation": "Figure E9-2 plots response against elevation angle above real ground, from 0° to 180° across the sky. That is an elevation pattern."
   },
   {
    "id": "E9B06",
@@ -8054,7 +8603,8 @@
    "refs": null,
    "figures": [
     "E9-2"
-   ]
+   ],
+   "explanation": "The strongest lobe in Figure E9-2 peaks just above the horizon, at about 7.5° elevation."
   },
   {
    "id": "E9B07",
@@ -8069,7 +8619,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A lossless antenna radiates all the power fed to it, whatever its pattern. Gain only concentrates that power in some directions."
   },
   {
    "id": "E9B08",
@@ -8084,7 +8635,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "In the far field, the shape of the pattern no longer changes with distance. Only the field strength keeps falling as 1/r."
   },
   {
    "id": "E9B09",
@@ -8099,7 +8651,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Antenna modeling programs (NEC, EZNEC, MMANA) use the Method of Moments."
   },
   {
    "id": "E9B10",
@@ -8114,7 +8667,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The Method of Moments divides wires into short segments, each assumed to carry a uniform current, and solves for those currents."
   },
   {
    "id": "E9B11",
@@ -8129,7 +8683,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "With too few segments per half-wave the current distribution isn't modeled accurately. Results such as feed-point impedance become unreliable."
   },
   {
    "id": "E9C01",
@@ -8144,7 +8699,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Fed 180° apart with λ/2 spacing, the fields add along the line of the elements and cancel broadside. The result is an end-fire figure-eight."
   },
   {
    "id": "E9C02",
@@ -8159,7 +8715,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "With λ/4 spacing and 90° phasing, the fields reinforce in one direction and cancel in the other, giving a unidirectional cardioid."
   },
   {
    "id": "E9C03",
@@ -8174,7 +8731,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Fed in phase with λ/2 spacing, the fields add broadside and cancel along the axis, giving a broadside figure-eight."
   },
   {
    "id": "E9C04",
@@ -8189,7 +8747,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "As a long wire gets longer it develops more lobes, and the main lobes move closer to the wire's axis."
   },
   {
    "id": "E9C05",
@@ -8204,7 +8763,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Feeding about 1/3 of the way from one end gives a similar impedance (around 200–300 Ω) on several harmonically related bands, so one balun can match them all."
   },
   {
    "id": "E9C06",
@@ -8219,7 +8779,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A terminating resistor absorbs the forward wave instead of reflecting it, so there's no backward-traveling wave. The pattern becomes unidirectional."
   },
   {
    "id": "E9C07",
@@ -8234,7 +8795,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A two-wire folded dipole multiplies the dipole impedance by 4: about 4 × 73 ≈ 300 Ω."
   },
   {
    "id": "E9C08",
@@ -8249,7 +8811,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A folded dipole is a half-wave dipole plus a second parallel conductor joining its ends, forming a narrow loop fed in the middle of one side."
   },
   {
    "id": "E9C09",
@@ -8264,7 +8827,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A G5RV is a center-fed wire (about 102 ft) fed through a specific length of open-wire or ladder line that transitions to coax, often via a balun."
   },
   {
    "id": "E9C10",
@@ -8279,7 +8843,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The original Zepp is an end-fed half-wave dipole, fed through open-wire line at its high-impedance end."
   },
   {
    "id": "E9C11",
@@ -8294,7 +8859,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Seawater is an excellent conductor, so ground reflections are strong and in phase at low angles. Low-angle vertical radiation increases a lot."
   },
   {
    "id": "E9C12",
@@ -8309,7 +8875,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An extended double Zepp is a center-fed dipole about 1.25 λ long. It is the longest center-fed length that keeps a broadside main lobe with extra gain (about 3 dB over a dipole)."
   },
   {
    "id": "E9C13",
@@ -8324,7 +8891,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Raising a horizontal antenna lowers the takeoff angle of its lowest elevation lobe, which favors DX."
   },
   {
    "id": "E9C14",
@@ -8339,7 +8907,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Over ground that falls away, the effective height is greater in the downhill direction, so the main lobe's takeoff angle drops that way."
   },
   {
    "id": "E9D01",
@@ -8354,7 +8923,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Dish gain ∝ (πD/λ)². Doubling the frequency halves λ, which multiplies the gain by 4, or about 6 dB."
   },
   {
    "id": "E9D02",
@@ -8369,7 +8939,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Two crossed Yagis (elements perpendicular) on one boom, with their driven elements at the same point and fed 90° apart, produce circular polarization."
   },
   {
    "id": "E9D03",
@@ -8384,7 +8955,10 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A loading coil near the middle of a short whip keeps the current high in the lower half, raising the radiation resistance, while the coil's losses stay reasonable. That makes it the most efficient location.",
+   "explanationConfidence": "low",
+   "explanationNote": "Loading-coil placement rationale summarized; pool key says 'near the center'."
   },
   {
    "id": "E9D04",
@@ -8399,7 +8973,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A high X/R ratio means high coil Q and low loss resistance, so less power is wasted in the coil."
   },
   {
    "id": "E9D05",
@@ -8414,7 +8989,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Yagi's driven element is a resonant half-wave dipole, about λ/2 long."
   },
   {
    "id": "E9D06",
@@ -8429,7 +9005,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Loading a short antenna raises its Q, so the SWR bandwidth gets narrower."
   },
   {
    "id": "E9D07",
@@ -8444,7 +9021,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Top loading (a capacitance hat) keeps the current high along the vertical section, which raises the radiation resistance and the efficiency."
   },
   {
    "id": "E9D08",
@@ -8459,7 +9037,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Bandwidth ≈ f/Q, so higher antenna Q means narrower SWR bandwidth."
   },
   {
    "id": "E9D09",
@@ -8474,7 +9053,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A short antenna looks capacitive. The loading coil adds inductive reactance to cancel it and bring the antenna to resonance."
   },
   {
    "id": "E9D10",
@@ -8489,7 +9069,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "As a whip gets electrically shorter (operated below resonance), its radiation resistance falls sharply, roughly with the square of its electrical length."
   },
   {
    "id": "E9D11",
@@ -8504,7 +9085,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "With normal spacing, a driven element plus reflector gives a bit more gain than a driven element plus director."
   },
   {
    "id": "E9D12",
@@ -8519,7 +9101,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Detuning a parasitic element changes the phase of its induced current. That phase decides whether it acts as a reflector (long, inductive) or a director (short, capacitive)."
   },
   {
    "id": "E9E01",
@@ -8534,7 +9117,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Beta and hairpin matches connect across a split driven element, whose two halves must be insulated from the boom. Gamma and T matches can be used with an element grounded to the boom at its center."
   },
   {
    "id": "E9E02",
@@ -8549,7 +9133,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A gamma match connects the coax shield to the element's center (its voltage null). The center conductor goes through a series capacitor to a rod that taps the element some distance out, where the impedance is higher."
   },
   {
    "id": "E9E03",
@@ -8564,7 +9149,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A stub match places a short length of line, open or shorted, in parallel with the feed line at a chosen point. Its reactance cancels the reactance there."
   },
   {
    "id": "E9E04",
@@ -8579,7 +9165,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The gamma rod adds inductance. The series capacitor cancels that inductive reactance so the feed point looks resistive."
   },
   {
    "id": "E9E05",
@@ -8594,7 +9181,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A hairpin is a shunt inductor, so it needs a driven element that is slightly short, with a capacitive feed point. Together they form an L-network that steps up to 50 Ω."
   },
   {
    "id": "E9E06",
@@ -8609,7 +9197,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A quarter-wave transformer needs Z0 = √(Zin × Zload) = √(50 × 100) ≈ 70.7 Ω, and 75 Ω coax is the closest choice."
   },
   {
    "id": "E9E07",
@@ -8624,7 +9213,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The reflection coefficient Γ = (ZL − Z0)/(ZL + Z0) describes how a load and a line interact (how much is reflected). SWR follows from it."
   },
   {
    "id": "E9E08",
@@ -8639,7 +9229,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Wilkinson divider splits power equally into two matched 50 Ω outputs, with isolation between them, while keeping a 50 Ω input."
   },
   {
    "id": "E9E09",
@@ -8654,7 +9245,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A grounded tower can be shunt-fed with a gamma match: a wire tapped up the tower with a series capacitor."
   },
   {
    "id": "E9E11",
@@ -8669,7 +9261,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Phasing lines set the relative amplitude and phase between driven elements, which shapes and steers the radiation pattern."
   },
   {
    "id": "E9F01",
@@ -8684,7 +9277,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Velocity factor = wave speed in the line ÷ c, the speed of light in a vacuum."
   },
   {
    "id": "E9F02",
@@ -8699,7 +9293,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "VF ≈ 1/√εr, so the dielectric material between the conductors largely determines it."
   },
   {
    "id": "E9F03",
@@ -8714,7 +9309,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Waves travel more slowly in coax, VF ≈ 0.66–0.85, so a given physical length contains more wavelengths and is electrically longer."
   },
   {
    "id": "E9F04",
@@ -8729,7 +9325,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A half-wave line repeats its load impedance at the input. A short at the far end therefore looks like a short (very low impedance) at the generator."
   },
   {
    "id": "E9F05",
@@ -8744,7 +9341,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Microstrip is a precise PCB trace over a ground plane, forming a controlled-impedance line for microwave interconnects."
   },
   {
    "id": "E9F06",
@@ -8759,7 +9357,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "λ/2 in free space = 150/14.1 MHz ≈ 10.64 m. Air-insulated line has a velocity factor close to 1, so the physical length is about 10.6 m."
   },
   {
    "id": "E9F07",
@@ -8774,7 +9373,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Open-wire (parallel conductor) line has mostly air as its dielectric and low conductor losses, so it loses much less than plastic-dielectric coax."
   },
   {
    "id": "E9F08",
@@ -8789,7 +9389,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Foam coax has a higher velocity factor and lower loss, but less dielectric strength, so a lower maximum voltage. All the choices are correct."
   },
   {
    "id": "E9F09",
@@ -8804,7 +9405,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A quarter-wave line inverts impedance, so a short at the far end appears as an open (very high impedance) at the input."
   },
   {
    "id": "E9F10",
@@ -8819,7 +9421,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A shorted line less than λ/4 long looks inductive. At λ/8 the input impedance is +jZ0."
   },
   {
    "id": "E9F11",
@@ -8834,7 +9437,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An open line less than λ/4 long looks capacitive. At λ/8 the input impedance is −jZ0."
   },
   {
    "id": "E9F12",
@@ -8849,7 +9453,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A quarter-wave line inverts impedance, so an open at the far end appears as a short (very low impedance) at the input."
   },
   {
    "id": "E9G01",
@@ -8864,7 +9469,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Smith chart solves transmission-line problems graphically. In particular it shows how impedance changes with distance along a line."
   },
   {
    "id": "E9G02",
@@ -8879,7 +9485,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The Smith chart is built from constant-resistance circles and constant-reactance arcs."
   },
   {
    "id": "E9G03",
@@ -8894,7 +9501,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The Smith chart is used to find impedance and SWR at points along transmission lines."
   },
   {
    "id": "E9G04",
@@ -8909,7 +9517,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Its two families are constant-resistance circles and constant-reactance arcs."
   },
   {
    "id": "E9G05",
@@ -8924,7 +9533,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A classic Smith chart use is finding the length and position of a matching stub."
   },
   {
    "id": "E9G06",
@@ -8941,7 +9551,10 @@
    "refs": null,
    "figures": [
     "E9-3"
-   ]
+   ],
+   "explanation": "Per the pool, the outer circle where the reactance arcs end is called the reactance axis. It is the boundary where R = 0, i.e. pure reactance.",
+   "explanationConfidence": "low",
+   "explanationNote": "Pool calls the outer circle the 'reactance axis'; explanation follows the key."
   },
   {
    "id": "E9G07",
@@ -8958,7 +9571,8 @@
    "refs": null,
    "figures": [
     "E9-3"
-   ]
+   ],
+   "explanation": "The only straight line on a Smith chart is the horizontal resistance axis (zero reactance), running from a short circuit to an open circuit."
   },
   {
    "id": "E9G08",
@@ -8973,7 +9587,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "You normalize by assigning the system impedance (for example 50 Ω) to the prime center and dividing all impedances by it."
   },
   {
    "id": "E9G09",
@@ -8988,7 +9603,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Constant-SWR circles, centered on the prime center, show how impedance moves along a lossless line at a fixed SWR."
   },
   {
    "id": "E9G10",
@@ -9003,7 +9619,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The arcs are curves of constant reactance, inductive above the resistance axis and capacitive below it."
   },
   {
    "id": "E9G11",
@@ -9018,7 +9635,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The outer scales are in fractions of a wavelength along the line (electrical wavelength), so you can rotate the plotted point by line length."
   },
   {
    "id": "E9H01",
@@ -9033,7 +9651,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A Beverage works as a traveling-wave antenna. It needs to be at least about one wavelength long, at low height, to get useful directivity."
   },
   {
    "id": "E9H02",
@@ -9048,7 +9667,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "On 160 m and 80 m the atmospheric noise is far above the receiver's noise floor. Directivity, which improves SNR, matters much more than antenna efficiency."
   },
   {
    "id": "E9H03",
@@ -9063,7 +9683,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "RDF compares the antenna's peak forward gain with its average gain over the hemisphere around and above it. It shows how well the antenna favors the signal over noise from all directions."
   },
   {
    "id": "E9H04",
@@ -9078,7 +9699,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "An electrostatic shield balances out capacitive coupling to nearby objects (the antenna effect). That keeps the loop's nulls deep and sharp for direction finding."
   },
   {
    "id": "E9H05",
@@ -9093,7 +9715,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A small loop has two nulls 180° apart, so the bearing is ambiguous unless you add a sense antenna."
   },
   {
    "id": "E9H06",
@@ -9108,7 +9731,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "When the termination equals the line's characteristic impedance, there are no reflections, so the SWR stays nearly flat across the band."
   },
   {
    "id": "E9H07",
@@ -9123,7 +9747,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The termination resistor absorbs signals arriving from the back, which would otherwise reflect, making the Beverage unidirectional."
   },
   {
    "id": "E9H08",
@@ -9138,7 +9763,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A sense antenna (usually a vertical) is combined with the loop to make a cardioid with a single null, which resolves the 180° ambiguity."
   },
   {
    "id": "E9H09",
@@ -9153,7 +9779,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A terminated single-turn loop such as the pennant or flag has a cardioid pattern with one deep rear null."
   },
   {
    "id": "E9H10",
@@ -9168,7 +9795,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Induced voltage is proportional to the number of turns × the loop area (× frequency). More turns or a larger area give more output."
   },
   {
    "id": "E9H11",
@@ -9183,7 +9811,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A cardioid has a single deep null that points to the signal's direction without the two-way ambiguity of a figure-eight."
   },
   {
    "id": "E0A01",
@@ -9198,7 +9827,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "A ground rod mainly carries lightning energy into the earth. It does little for RF grounding or equipment interconnection."
   },
   {
    "id": "E0A02",
@@ -9213,7 +9843,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "The public, including your neighbors, is not aware of or in control of the exposure. So the stricter uncontrolled (general population) MPE limits apply (47 CFR §1.1310)."
   },
   {
    "id": "E0A03",
@@ -9228,7 +9859,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Between 30 and 300 MHz the human body absorbs RF most efficiently because of whole-body resonance, so the MPE limits are lowest there."
   },
   {
    "id": "E0A04",
@@ -9243,7 +9875,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "At multi-transmitter sites, each transmitter producing 5% or more of its own MPE limit in an area where the total is exceeded shares responsibility (47 CFR §1.1307(b))."
   },
   {
    "id": "E0A05",
@@ -9258,7 +9891,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Microwave dishes and other high-gain antennas concentrate power into narrow beams, which can create dangerous power densities close to the antenna. The radiation is non-ionizing."
   },
   {
    "id": "E0A06",
@@ -9273,7 +9907,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Below 300 MHz you are often in the near field, where E and H do not track each other. The body responds to both, their peaks occur at different places, and reflections make the levels vary from point to point. All the reasons apply."
   },
   {
    "id": "E0A07",
@@ -9288,7 +9923,8 @@
    ],
    "correct": 1,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "100% tie-off means a climber is attached to the structure by at least one lanyard at all times, including while moving or repositioning."
   },
   {
    "id": "E0A08",
@@ -9303,7 +9939,8 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "SAR (specific absorption rate, in W/kg) is the rate at which body tissue absorbs RF energy."
   },
   {
    "id": "E0A09",
@@ -9318,7 +9955,10 @@
    ],
    "correct": 2,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Per the pool key, hand-held transceivers sold before May 3, 2021 are exempt from the RF exposure evaluation requirement. That is the date the FCC's revised RF exposure rules took effect.",
+   "explanationConfidence": "low",
+   "explanationNote": "Exemption detail for pre-2021 handhelds reflects the pool answer key; the underlying FCC rule language was not independently verified."
   },
   {
    "id": "E0A10",
@@ -9333,7 +9973,8 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Since May 3, 2021, the FCC no longer exempts stations by power level and band (47 CFR §1.1307). Every station must be evaluated, though the evaluation may simply show the station meets an exemption threshold."
   },
   {
    "id": "E0A11",
@@ -9348,7 +9989,8 @@
    ],
    "correct": 3,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Attach lanyards to the tower legs, the strongest members. Rungs, guy brackets and masts may not hold fall-arrest loads."
   },
   {
    "id": "E0A12",
@@ -9363,7 +10005,36 @@
    ],
    "correct": 0,
    "refs": null,
-   "figures": []
+   "figures": [],
+   "explanation": "Anchoring a shock-absorbing lanyard above head level limits how far you fall before it arrests you, which reduces the impact force."
   }
- ]
+ ],
+ "explanations": {
+  "author": "extra-class-study contributors",
+  "license": "GPL-3.0-or-later",
+  "note": "Explanations are unofficial study aids, not part of the NCVEC pool. Rule citations checked against eCFR 47 CFR Part 97 (2026-10-06). Entries with explanationConfidence \"low\" need review.",
+  "count": 599,
+  "flagged": [
+   "E0A09",
+   "E1A04",
+   "E1D12",
+   "E2B08",
+   "E2E04",
+   "E3C12",
+   "E4E14",
+   "E5D08",
+   "E6A10",
+   "E6A11",
+   "E6E03",
+   "E7B11",
+   "E7E06",
+   "E8A06",
+   "E9B01",
+   "E9B02",
+   "E9B03",
+   "E9B04",
+   "E9D03",
+   "E9G06"
+  ]
+ }
 }

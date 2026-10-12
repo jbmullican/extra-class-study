@@ -1,12 +1,13 @@
 import re,json,html
-L=[html.unescape(l).replace('\u00a0',' ').strip() for l in open('pool.txt',encoding='utf-8')]
+L=[html.unescape(l).replace('\u00a0',' ').strip() for l in open(__import__('sys').argv[1] if len(__import__('sys').argv)>1 else 'pool.txt',encoding='utf-8')]
 subs={};groups={}
 for l in L[:190]:
   m=re.match(r'SUBELEMENT (E\d) - ?(.*?) -? ?\[(\d+) [Ee]xam [Qq]uestions? - (\d+) [Gg]roups?\]',l)
   if m: subs[m[1]]={'id':m[1],'title':m[2].strip(' -'),'examQuestions':int(m[3])}
   m=re.match(r'(E\d[A-Z]) (.*)',l)
   if m and not re.match(r'E\d[A-Z]\d\d',l): groups[m[1]]={'id':m[1],'title':m[2],'subelement':m[1][:2]}
-qs=[];deleted=[];i=0
+qs=[];deleted=[]
+i=max(n for n,l in enumerate(L) if l.startswith('SUBELEMENT E1 '))
 while i<len(L):
   m=re.match(r'^(E\d[A-Z]\d\d)\s*\(([A-D])\)\s*(?:\[(.*?)\])?',L[i])
   if m:
@@ -31,8 +32,8 @@ while i<len(L):
 out={'schemaVersion':1,'poolId':'extra-2024-2028','element':4,'name':'Amateur Extra Class (Element 4)','validFrom':'2024-07-01','validUntil':'2028-06-30',
  'passScore':37,'examSize':50,
  'source':{'publisher':'NCVEC Question Pool Committee','url':'https://www.ncvec.org/index.php/2024-2028-extra-class-question-pool-release','document':'2024-2028 Extra Class Question Pool and Syllabus Public Release with 4th Errata Feb 4 2026','figures':'https://www.ncvec.org/downloads/e4_2024-svgs.zip','license':'Question pools are public domain'},
- 'errata':['2024-01-31: Figure E9-3 (Smith chart) rotated 90 degrees','2024-11-08: E2A13 withdrawn','2025-09-25: E6D07 withdrawn','2026-02-04: E4D05 withdrawn'],
- 'withdrawn':['E2A13','E4D05','E6D07'],'subelements':list(subs.values()),'groups':list(groups.values()),'questions':qs}
-json.dump(out,open('../app/data/pool-extra-2024-2028.json','w'),indent=1,ensure_ascii=False)
+ 'errata':['2024-01-31: Figure E9-3 (Smith chart) rotated 90 degrees to horizontal with infinity on the right','2024-01-31: E9E10 withdrawn','2024-01-31: wording fixes to E1D07 question, E1F03 answer D, E4D12 and E4D13 questions (100 W -> 10 W), E6A06 answer B','2024-01-31: rule citations corrected for E1E10 [97.509(m)] and E1E11 [97.509(i)]','2024-11-08: E2A13 withdrawn','2025-09-25: E6D07 withdrawn','2026-02-04: E4D05 withdrawn'],
+ 'withdrawn':['E9E10','E2A13','E6D07','E4D05'],'subelements':list(subs.values()),'groups':list(groups.values()),'questions':qs}
+json.dump(out,open('data/pool-extra-2024-2028.json','w'),indent=1,ensure_ascii=False)
 print(len(qs),deleted,len(subs),len(groups),sum(s['examQuestions'] for s in subs.values()))
 from collections import Counter;print(Counter(f for q in qs for f in q['figures']))

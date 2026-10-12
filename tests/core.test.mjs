@@ -57,3 +57,13 @@ test('readiness grows with mastery', () => {
   const all = {}; for (const q of pool.questions) all[q.id] = { seen: 10, correct: 10, reps: 5 };
   assert.ok(C.readiness(pool, all).likelyPass);
 });
+test('every question has a non-empty explanation', () => {
+  const missing = pool.questions.filter(q => typeof q.explanation !== 'string' || q.explanation.trim().length < 20).map(q => q.id);
+  assert.deepEqual(missing, []);
+  for (const q of pool.questions) if (q.explanationConfidence) assert.equal(q.explanationConfidence, 'low');
+  assert.equal(pool.explanations.count, pool.questions.length);
+});
+test('all referenced figures exist', async () => {
+  const { existsSync } = await import('node:fs');
+  for (const q of pool.questions) for (const f of q.figures) assert.ok(existsSync(new URL(`../figures/${f}.svg`, import.meta.url)), f);
+});

@@ -23,11 +23,18 @@ An adaptive study and quiz web app (installable PWA) for the **US Amateur Radio 
 3. Next question: the most overdue review; if nothing is due, a weighted random pick where weight = (1.2 − group mastery) × (1.5 for unseen, smaller for already-learned).
 
 ## Question pool data
-- Source: **NCVEC Question Pool Committee** — *2024-2028 Extra Class Question Pool and Syllabus Public Release with 4th Errata (Feb 4, 2026)*, <https://www.ncvec.org/index.php/2024-2028-extra-class-question-pool-release>. Question pools are in the public domain.
-- Figures E5-1, E6-1, E6-2, E6-3, E7-1, E7-2, E7-3, E9-1, E9-2, E9-3 come from NCVEC's official SVG set (`e4_2024-svgs.zip`).
-- Errata applied: E9-3 Smith chart rotated (Jan 31, 2024); **E2A13** withdrawn (Nov 8, 2024); **E6D07** withdrawn (Sep 25, 2025); **E4D05** withdrawn (Feb 4, 2026). The pool has **599 active questions** (602 originally).
-- The official pool has no explanations; the app shows the FCC rule references (47 CFR Part 97) when the pool gives them. Add an `explanation` field to a question in the JSON and it will be shown.
-- Data file: `data/pool-extra-2024-2028.json`, regenerated with `tools/parse_pool.py`.
+- Source: **NCVEC Question Pool Committee**, *2024-2028 Extra Class Question Pool and Syllabus Public Release with 4th Errata (Feb 4, 2026)*, <https://www.ncvec.org/index.php/2024-2028-extra-class-question-pool-release>. Question pools are public domain.
+- Figures E5-1, E6-1, E6-2, E6-3, E7-1, E7-2, E7-3, E9-1, E9-2 and E9-3 come from NCVEC's official SVG set (`e4_2024-svgs.zip`). They were checked against the current figure PDF (`Extra_Figures_2024-2028-1.pdf`, revised Jan 30, 2024), and E9-3 is the corrected horizontal Smith chart. Tap any figure in the app to zoom.
+- Errata applied (all four NCVEC notices):
+  - **Jan 31, 2024:** E9-3 Smith chart rotated to horizontal (∞ on the right); **E9E10** withdrawn; wording fixes to E1D07, E1F03 (answer D), E4D12 and E4D13 (100 W → 10 W), E6A06 (answer B); citations corrected for E1E10 [97.509(m)] and E1E11 [97.509(i)].
+  - **Nov 8, 2024:** **E2A13** withdrawn.
+  - **Sep 25, 2025:** **E6D07** withdrawn.
+  - **Feb 4, 2026:** **E4D05** withdrawn.
+- **599 active questions** (4 withdrawn; sections were not renumbered).
+- Data file: `data/pool-extra-2024-2028.json`. To regenerate it, run `python3 tools/parse_pool.py pool.txt` (text extracted from the NCVEC .docx) and then `python3 tools/merge_explanations.py`.
+
+### Explanations
+Every question has a short explanation, shown after you answer in study mode, on the back of each flashcard, and in the practice-exam review. The explanations are **unofficial study aids written for this project**, not part of the NCVEC pool. They cite 47 CFR Part 97 where a rule applies (checked against eCFR, Oct 2026) and show a worked calculation for math questions. Entries marked ⚠️ (`explanationConfidence: "low"`) have a note in `explanationNote` explaining what still needs review. The source text is in `tools/explanations/*.py`. Corrections are welcome by pull request.
 
 ### Switching to the next pool (2028–2032)
 Add `data/pool-extra-2028-2032.json` in the same schema (`validFrom`, `validUntil`, `subelements`, `groups`, `questions`), point `js/config.js` at it, and bump `VERSION` in `sw.js`. Progress is stored by question ID.
